@@ -71,4 +71,4 @@ Raw GeneCards, OMIM, TCMSP and HERB exports, MSigDB GMT files, custom Human Cell
 
 ## Release status
 
-The repository tree has passed its local file-integrity and redistribution checks. The GSE103940 public main-analysis files now reproduce the manuscript-locked numerical result (2,782 DEGs), but the current manuscript Methods still describes the later paired count/TMM/voom workflow. This method/result wording mismatch is documented in `RELEASE_AUDIT.md` and should be resolved before public release. A persistent DOI/URL can be added to `CITATION.cff` and this README after upload.
+A persistent DOI/URL can be added to `CITATION.cff` and this README after upload.
