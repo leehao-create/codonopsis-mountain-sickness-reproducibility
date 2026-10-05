@@ -4,7 +4,7 @@ This release-staging repository contains the frozen computational materials for 
 
 ## Study datasets
 
-- GSE103940: paired high-altitude exposure transcriptomics (11 subjects, plain and high-altitude samples).
+- GSE103940: high-altitude exposure transcriptomics (11 subjects, plain and high-altitude samples). The manuscript-locked DEG table reports 2,782 genes (118 increased and 2,664 decreased at high altitude); see the version note below.
 - GSE75665: repeated-measures AMS study (10 subjects, plain and high-altitude samples; 5 AMS and 5 non-AMS).
 - GSE260910: retained only for the documented disease-batch confounding audit; it is not used for inferential HAPE differential expression or supervised machine learning.
 - GSE134355 / Human Cell Landscape reference objects: descriptive blood and lung cell-type localization only, not disease validation.
@@ -39,6 +39,10 @@ Each module contains `scripts/`, inputs or frozen dependencies where redistribut
 
 No analysis was rerun during repository assembly. A syntax/static check does not constitute independent numerical reproduction.
 
+## Authoritative GSE103940 manuscript version
+
+The public main-analysis release follows the result frozen in the submitted manuscript: 2,782 DEGs, comprising 118 high-altitude-increased and 2,664 high-altitude-decreased genes. Its archived FPKM input, limma script, complete result table, annotated workbook and exact current Figure 2 are under `analysis/differential_expression/`. The later 296-DEG paired count/TMM/voom analysis is not released as the manuscript's primary differential-expression analysis. Count/voom dependencies that remain in the separate cell-composition and machine-learning modules serve those explicitly scoped analyses only.
+
 ## Authoritative WGCNA version
 
 Only the final revised WGCNA is included: 4,289 retained genes, MAD threshold 0.50484, signed network and signed TOM, beta=30, `minModuleSize=20`, `deepSplit=2`, and `mergeCutHeight=0.25`. No candidate power reached R2 >= 0.85; beta=30 was selected by the documented fallback rule. The network contains three biological modules (turquoise, blue, brown) plus grey/unclassified genes. A global BH correction was applied across nine subject-aware module-effect tests, and no association remained significant. Legacy beta=16, 2,810-gene and 12-module outputs are excluded.
@@ -67,4 +71,4 @@ Raw GeneCards, OMIM, TCMSP and HERB exports, MSigDB GMT files, custom Human Cell
 
 ## Release status
 
-The release tree has passed its local pre-publication integrity and redistribution audit and is ready to upload to a public repository. A persistent DOI/URL can only be added to `CITATION.cff` and this README after the external archive is created; this post-upload metadata step does not alter the scientific contents. See `RELEASE_AUDIT.md`.
+The repository tree has passed its local file-integrity and redistribution checks. The GSE103940 public main-analysis files now reproduce the manuscript-locked numerical result (2,782 DEGs), but the current manuscript Methods still describes the later paired count/TMM/voom workflow. This method/result wording mismatch is documented in `RELEASE_AUDIT.md` and should be resolved before public release. A persistent DOI/URL can be added to `CITATION.cff` and this README after upload.

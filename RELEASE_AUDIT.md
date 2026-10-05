@@ -5,9 +5,9 @@ Scope: complete `reproducibility_repository` release tree. No biological or stat
 
 ## Release decision
 
-**Ready for public release**
+**Not ready for public release: one manuscript-method consistency blocker remains**
 
-No blocking file-integrity, licensing-boundary, third-party redistribution, local-path disclosure, credential/privacy, or legacy-version issue remains in this release tree.
+The repository files are internally aligned to the manuscript-locked GSE103940 numerical result (2,782 DEGs; 118 increased and 2,664 decreased at high altitude), and no file-integrity or redistribution blocker remains. However, `Revised2_Manuscript.docx` Methods 2.3 still describes a paired count-based TMM/voom-limma workflow, whereas the archived table yielding 2,782 DEGs used log2-transformed FPKM values and a condition-only limma model. Public release before correcting or explicitly explaining that mismatch would not satisfy the requested manuscript/repository consistency standard.
 
 ## Final audit matrix
 
@@ -28,6 +28,8 @@ No blocking file-integrity, licensing-boundary, third-party redistribution, loca
 | Absolute/local paths | PASS | No `/data3`, home-directory, workstation, volume or personal-account path remains |
 | Credentials/privacy | PASS | No credential/private-key pattern or direct participant identifier was detected; author names in citation metadata and public accessions are intentional |
 | Revised WGCNA only | PASS | No legacy-named WGCNA file is present; the repository contains only beta=30, 4,289 retained genes and three biological modules plus grey |
+| GSE103940 release version | PASS (repository) | Main differential-expression files reproduce 2,782 DEGs (118 high-altitude increased; 2,664 decreased); the later 296-DEG analysis is excluded from the primary differential-expression module |
+| GSE103940 manuscript-method agreement | BLOCKED | Manuscript Methods 2.3 describes paired count/TMM/voom, but the frozen 2,782-DEG table derives from log2(FPKM) and a condition-only limma design |
 | Frozen ML | PASS | Final nested subject-level LOSO materials are retained; no new model or GSE260910 supervised analysis is included |
 | Revised docking only | PASS | Final 2AA2/1GKC workflow and results are retained; no superseded docking conclusion was reintroduced |
 
@@ -51,6 +53,8 @@ STRING's official licensing page states that website, API and download outputs, 
 
 ## Reproducibility boundaries
 
+- The GSE103940 main-analysis script intentionally preserves the archived workflow that generated the manuscript-locked 2,782-DEG table. It does not claim that this workflow is paired or count based. The current manuscript Methods wording must be reconciled with this provenance before release.
+- The exact R/limma version used for the legacy GSE103940 analysis was not recovered. The frozen table is retained as authoritative, and the script asserts the expected DEG counts so version drift fails visibly.
 - Exact rerunning of the single-cell localization requires authorized custom `blood1.rds` and `lung1.rds` objects. GSE134355 source acquisition and the downstream object schema are documented, but the exact byte-identical source-to-RDS construction script was not recovered. This is disclosed rather than reconstructed by assumption.
 - Current NCBI `gene_info` content may differ from the archived mapping. The provided helper creates a functional current mapping but does not claim byte identity.
 - Current STRING results may differ from the frozen Figure 1 tables because the precise historical STRING release was not recorded. The versioned helper writes to a separate reconstruction directory and never overwrites frozen outputs.

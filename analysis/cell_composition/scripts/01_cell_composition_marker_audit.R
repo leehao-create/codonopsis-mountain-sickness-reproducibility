@@ -83,10 +83,12 @@ one_sample_summary <- function(delta, dataset, comparison, direction_positive,
   ans
 }
 
-# GSE103940: frozen paired count/TMM/voom result.
+# GSE103940: frozen paired count/TMM/voom object used only for the independent
+# reviewer-requested lineage-marker audit. It is not the manuscript-locked
+# GSE103940 primary DEG table (2,782 genes from the archived FPKM workflow).
 fit103_path <- file.path(module_dir, "data", "dependencies", "GSE103940_final_A_B_fit.rds")
-deg103_path <- file.path(module_dir, "..", "differential_expression", "results",
-                         "GSE103940", "GSE103940_analysis_A_DEG_all.csv")
+deg103_path <- file.path(module_dir, "data", "dependencies",
+                         "GSE103940_cell_composition_count_voom_DEG_all.csv")
 deg103_b_path <- file.path(module_dir, "data", "dependencies", "GSE103940_analysis_B_DEG_all.csv")
 fit103 <- readRDS(fit103_path)
 deg103 <- read.csv(deg103_path, check.names = FALSE)

@@ -56,7 +56,12 @@ def release_status(relative: str) -> tuple[str, str]:
 
 
 def main() -> None:
-    files = sorted(path for path in ROOT.rglob("*") if path.is_file() and path.resolve() not in EXCLUDED)
+    files = sorted(
+        path for path in ROOT.rglob("*")
+        if path.is_file()
+        and ".git" not in path.relative_to(ROOT).parts
+        and path.resolve() not in EXCLUDED
+    )
     rows = []
     checksum_lines = []
     for path in files:
@@ -79,7 +84,7 @@ def main() -> None:
         checksum_lines.append(f"{digest}  {relative}")
 
     with MANIFEST.open("w", newline="", encoding="utf-8") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     CHECKSUMS.write_text("\n".join(checksum_lines) + "\n", encoding="utf-8")

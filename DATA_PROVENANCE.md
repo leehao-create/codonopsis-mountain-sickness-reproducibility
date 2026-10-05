@@ -2,7 +2,7 @@
 
 | Content | Source | Repository treatment | Release status |
 |---|---|---|---|
-| GSE103940 counts and sample map | NCBI GEO GSE103940 | Included as accession-derived processed input and author-curated pairing map | Included; cite the GEO accession |
+| GSE103940 processed FPKM and sample map | NCBI GEO GSE103940 | Gene-symbol FPKM matrix used for the manuscript-locked 2,782-DEG result and author-curated pairing map included | Included; cite the GEO accession |
 | GSE75665 counts, FPKM and sample map | NCBI GEO GSE75665 | Included as accession-derived inputs and author-curated repeated-measures map | Included; cite the GEO accession |
 | GSE260910 metadata | NCBI GEO GSE260910 | Sample map and confounding result included; no inferential HAPE result included | Releasable as derived audit material |
 | MSigDB Hallmark, Reactome and GO BP GMT | MSigDB v2025.1.Hs | Not included | Users must obtain the named GMT files under the applicable MSigDB terms and set `MSIGDB_DIR` |
@@ -50,6 +50,10 @@
 - Scope: metadata and design-rank audit only; the repository does not perform inferential HAPE differential expression or supervised machine learning with this dataset.
 
 No controlled-access clinical data or direct participant identifiers are included. Public GSM accessions and study pseudonyms are retained where required to reproduce paired or repeated-measures designs.
+
+### GSE103940 version boundary
+
+The main differential-expression release uses the archived GEO supplementary FPKM values in `analysis/differential_expression/data/processed/GSE103940_FPKM_gene_symbol_matrix.csv`. The reproduction script preserves the archived transformation and condition-only limma design and asserts the manuscript counts of 2,782 total DEGs, 118 increased and 2,664 decreased at high altitude. A later paired count/TMM/voom analysis yielding 296 DEGs is excluded from the main differential-expression release. Frozen count/voom dependencies retained for the reviewer-requested cell-composition audit are explicitly scoped to that audit and are not a substitute primary DEG result.
 
 ## Licensing boundary
 
