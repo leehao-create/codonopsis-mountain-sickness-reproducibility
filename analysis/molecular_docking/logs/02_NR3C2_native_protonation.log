@@ -1,0 +1,3 @@
+COMMAND: obabel -isdf <module_root>/prepared/NR3C2/native_ligand_crystal.sdf -osdf -O <module_root>/results/redocking/NR3C2/native_ligand_pH7.4.sdf -p 7.4
+
+1 molecule converted

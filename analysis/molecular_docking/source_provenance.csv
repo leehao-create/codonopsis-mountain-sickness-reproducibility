@@ -1,0 +1,9 @@
+item,source,local_file,note
+NR3C2 receptor,RCSB PDB 2AA2,inputs/structures/2AA2.pdb,"chain A; 1.95 A; C808S engineered mutation; aldosterone-bound; no S810L"
+MMP9 receptor,RCSB PDB 1GKC,inputs/structures/1GKC.pdb,"chain A; 2.30 A; wild-type catalytic-domain construct; NFH-bound; Zn/Ca retained"
+aldosterone template,RCSB Chemical Component AS4,inputs/native_ligands/AS4_ideal.sdf,used to assign native-ligand bond orders for redocking
+NFH template,RCSB Chemical Component NFH,inputs/native_ligands/NFH_ideal.sdf,used to assign native-ligand bond orders for redocking
+MOL000449,archived PubChem 3D SDF CID 5280794,inputs/candidate_ligands/MOL000449_PubChem3D.sdf,copied without replacement from lhh/06.分子对接/chem/MOL000449.sdf
+MOL004355,archived PubChem 3D SDF CID 5281331,inputs/candidate_ligands/MOL004355_PubChem3D.sdf,copied without replacement from lhh/06.分子对接/chem/MOL004355.sdf
+MOL008407,archived PubChem 3D SDF CID 14807783,inputs/candidate_ligands/MOL008407_PubChem3D.sdf,copied without replacement from lhh/06.分子对接/chem/MOL008407.sdf
+MOL000006,archived PubChem 3D SDF CID 5280445,inputs/candidate_ligands/MOL000006_PubChem3D.sdf,copied without replacement from lhh/06.分子对接/chem/MOL000006.sdf

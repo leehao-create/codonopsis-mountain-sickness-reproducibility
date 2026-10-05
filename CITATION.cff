@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software release."
+title: "Reproducibility materials for integrative analyses of Codonopsis pilosula in mountain sickness"
+type: software
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Zhou
+    given-names: Yaqi
+  - family-names: Wu
+    given-names: Jiamin
+  - family-names: Tan
+    given-names: Zhiwei
+  - family-names: He
+    given-names: Wanxin
+  - family-names: Tan
+    given-names: Wen
+  - family-names: Fu
+    given-names: Mingxue
+  - family-names: Bai
+    given-names: Baowei
+  - family-names: Li
+    given-names: Hao
+preferred-citation:
+  type: article
+  title: "Integrative Multi-Omics and Network Pharmacology Analyses Reveal Potential Mechanisms of Codonopsis pilosula in Mountain Sickness"
+  authors:
+    - family-names: Zhou
+      given-names: Yaqi
+    - family-names: Wu
+      given-names: Jiamin
+    - family-names: Tan
+      given-names: Zhiwei
+    - family-names: He
+      given-names: Wanxin
+    - family-names: Tan
+      given-names: Wen
+    - family-names: Fu
+      given-names: Mingxue
+    - family-names: Bai
+      given-names: Baowei
+    - family-names: Li
+      given-names: Hao
+  journal: "International Journal of Molecular Sciences"

@@ -1,0 +1,13 @@
+"x","y","label"
+1,1,"54 predefined
+candidate targets"
+2,1,"39 expression-eligible
+predictors"
+3,1,"Outer LOSO
+11 subjects"
+4,1,"Training-fold only
+preprocessing + tuning"
+5,1,"OOF prediction +
+paired permutation"
+6,1,"Stability + subject
+bootstrap uncertainty"

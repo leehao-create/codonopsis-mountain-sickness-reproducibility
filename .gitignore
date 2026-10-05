@@ -1,0 +1,17 @@
+reproduced_results/
+reproduced_figures/
+**/reproduced_results/
+**/reproduced_figures/
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+
+# User-supplied third-party inputs; do not commit to the public release.
+analysis/single_cell/data/external/*.rds
+analysis/differential_expression/data/reference/NCBI_GeneID_to_symbol.txt
+analysis/differential_expression/data/external/*.soft.gz
+analysis/differential_expression/data/gene_sets/*.gmt

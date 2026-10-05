@@ -1,0 +1,157 @@
+"gene","number_of_methods_supported","method","frequency","id"
+"PTGER3",1,"LASSO",0.035,1
+"NR3C2",0,"LASSO",0.02,3
+"CYCS",1,"LASSO",0.065,5
+"HMOX1",2,"LASSO",0.345,6
+"IL2RA",0,"LASSO",0,8
+"SOD1",0,"LASSO",0,12
+"IFNG",0,"LASSO",0,13
+"BCL2",4,"LASSO",0.64,14
+"CD40",1,"LASSO",0.03,17
+"AKR1B1",0,"LASSO",0,19
+"CA2",3,"LASSO",0.04,20
+"HIF1A",0,"LASSO",0,21
+"NOS3",0,"LASSO",0,22
+"CXCL8",1,"LASSO",0.015,23
+"HBB",3,"LASSO",0.11,24
+"GATA1",3,"LASSO",0,25
+"ABCB1",0,"LASSO",0,26
+"NR3C1",0,"LASSO",0.03,27
+"HP",0,"LASSO",0,28
+"SERPINE1",1,"LASSO",0.245,30
+"MAPK14",1,"LASSO",0,31
+"TP53",0,"LASSO",0,32
+"INSR",0,"LASSO",0,33
+"CASP9",0,"LASSO",0,34
+"PGM1",2,"LASSO",0.45,35
+"FCER2",2,"LASSO",0.435,36
+"PTGS2",0,"LASSO",0,38
+"IL1B",1,"LASSO",0,39
+"ATM",4,"LASSO",0.975,40
+"ESR1",1,"LASSO",0,41
+"SNCA",4,"LASSO",0.97,43
+"ADRB2",0,"LASSO",0.02,45
+"VEGFA",0,"LASSO",0,46
+"CDKN2A",1,"LASSO",0,47
+"TFRC",0,"LASSO",0,48
+"TSHR",0,"LASSO",0.01,49
+"TIMP1",0,"LASSO",0,50
+"APP",3,"LASSO",0.465,53
+"MMP9",0,"LASSO",0,54
+"PTGER3",1,"Elastic Net",0.735,1
+"NR3C2",0,"Elastic Net",0.595,3
+"CYCS",1,"Elastic Net",0.885,5
+"HMOX1",2,"Elastic Net",1,6
+"IL2RA",0,"Elastic Net",0,8
+"SOD1",0,"Elastic Net",0,12
+"IFNG",0,"Elastic Net",0.04,13
+"BCL2",4,"Elastic Net",1,14
+"CD40",1,"Elastic Net",0.725,17
+"AKR1B1",0,"Elastic Net",0.315,19
+"CA2",3,"Elastic Net",0.915,20
+"HIF1A",0,"Elastic Net",0.14,21
+"NOS3",0,"Elastic Net",0.02,22
+"CXCL8",1,"Elastic Net",0.91,23
+"HBB",3,"Elastic Net",0.9,24
+"GATA1",3,"Elastic Net",0.9,25
+"ABCB1",0,"Elastic Net",0.215,26
+"NR3C1",0,"Elastic Net",0.52,27
+"HP",0,"Elastic Net",0.4,28
+"SERPINE1",1,"Elastic Net",0.915,30
+"MAPK14",1,"Elastic Net",0.7,31
+"TP53",0,"Elastic Net",0.39,32
+"INSR",0,"Elastic Net",0.06,33
+"CASP9",0,"Elastic Net",0.475,34
+"PGM1",2,"Elastic Net",0.985,35
+"FCER2",2,"Elastic Net",0.98,36
+"PTGS2",0,"Elastic Net",0.215,38
+"IL1B",1,"Elastic Net",0.725,39
+"ATM",4,"Elastic Net",1,40
+"ESR1",1,"Elastic Net",0.9,41
+"SNCA",4,"Elastic Net",1,43
+"ADRB2",0,"Elastic Net",0.545,45
+"VEGFA",0,"Elastic Net",0.035,46
+"CDKN2A",1,"Elastic Net",0.72,47
+"TFRC",0,"Elastic Net",0.09,48
+"TSHR",0,"Elastic Net",0.37,49
+"TIMP1",0,"Elastic Net",0.055,50
+"APP",3,"Elastic Net",1,53
+"MMP9",0,"Elastic Net",0.255,54
+"PTGER3",1,"RF",0.175,1
+"NR3C2",0,"RF",0.26,3
+"CYCS",1,"RF",0.095,5
+"HMOX1",2,"RF",0.42,6
+"IL2RA",0,"RF",0,8
+"SOD1",0,"RF",0.01,12
+"IFNG",0,"RF",0,13
+"BCL2",4,"RF",0.665,14
+"CD40",1,"RF",0.015,17
+"AKR1B1",0,"RF",0.005,19
+"CA2",3,"RF",0.79,20
+"HIF1A",0,"RF",0.035,21
+"NOS3",0,"RF",0.015,22
+"CXCL8",1,"RF",0.035,23
+"HBB",3,"RF",0.71,24
+"GATA1",3,"RF",0.67,25
+"ABCB1",0,"RF",0.085,26
+"NR3C1",0,"RF",0.135,27
+"HP",0,"RF",0.05,28
+"SERPINE1",1,"RF",0.19,30
+"MAPK14",1,"RF",0,31
+"TP53",0,"RF",0,32
+"INSR",0,"RF",0.035,33
+"CASP9",0,"RF",0.025,34
+"PGM1",2,"RF",0.715,35
+"FCER2",2,"RF",0.08,36
+"PTGS2",0,"RF",0,38
+"IL1B",1,"RF",0.155,39
+"ATM",4,"RF",0.93,40
+"ESR1",1,"RF",0.28,41
+"SNCA",4,"RF",0.795,43
+"ADRB2",0,"RF",0,45
+"VEGFA",0,"RF",0,46
+"CDKN2A",1,"RF",0.095,47
+"TFRC",0,"RF",0.005,48
+"TSHR",0,"RF",0.025,49
+"TIMP1",0,"RF",0.005,50
+"APP",3,"RF",0.65,53
+"MMP9",0,"RF",0.01,54
+"PTGER3",1,"SVM",0.325,1
+"NR3C2",0,"SVM",0.25,3
+"CYCS",1,"SVM",0.395,5
+"HMOX1",2,"SVM",0.61,6
+"IL2RA",0,"SVM",0.03,8
+"SOD1",0,"SVM",0.03,12
+"IFNG",0,"SVM",0.03,13
+"BCL2",4,"SVM",0.78,14
+"CD40",1,"SVM",0.26,17
+"AKR1B1",0,"SVM",0.135,19
+"CA2",3,"SVM",0.675,20
+"HIF1A",0,"SVM",0.03,21
+"NOS3",0,"SVM",0.03,22
+"CXCL8",1,"SVM",0.34,23
+"HBB",3,"SVM",0.78,24
+"GATA1",3,"SVM",0.655,25
+"ABCB1",0,"SVM",0.07,26
+"NR3C1",0,"SVM",0.205,27
+"HP",0,"SVM",0.16,28
+"SERPINE1",1,"SVM",0.51,30
+"MAPK14",1,"SVM",0.31,31
+"TP53",0,"SVM",0.16,32
+"INSR",0,"SVM",0.03,33
+"CASP9",0,"SVM",0.15,34
+"PGM1",2,"SVM",0.55,35
+"FCER2",2,"SVM",0.71,36
+"PTGS2",0,"SVM",0.09,38
+"IL1B",1,"SVM",0.255,39
+"ATM",4,"SVM",0.91,40
+"ESR1",1,"SVM",0.57,41
+"SNCA",4,"SVM",0.935,43
+"ADRB2",0,"SVM",0.175,45
+"VEGFA",0,"SVM",0.05,46
+"CDKN2A",1,"SVM",0.29,47
+"TFRC",0,"SVM",0.05,48
+"TSHR",0,"SVM",0.1,49
+"TIMP1",0,"SVM",0.06,50
+"APP",3,"SVM",0.74,53
+"MMP9",0,"SVM",0.08,54

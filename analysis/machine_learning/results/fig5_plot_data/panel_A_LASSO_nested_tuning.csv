@@ -1,0 +1,12 @@
+outer_fold,method,parameter,value,secondary,lambda_1se,selected_n
+subject_01,LASSO,alpha/lambda.1se,1/0.1049625,selected_n=6,0.1049625,6
+subject_02,LASSO,alpha/lambda.1se,1/0.1121855,selected_n=4,0.1121855,4
+subject_03,LASSO,alpha/lambda.1se,1/0.1574658,selected_n=3,0.1574658,3
+subject_04,LASSO,alpha/lambda.1se,1/0.1360891,selected_n=6,0.1360891,6
+subject_05,LASSO,alpha/lambda.1se,1/0.199227,selected_n=2,0.199227,2
+subject_06,LASSO,alpha/lambda.1se,1/0.1749171,selected_n=4,0.1749171,4
+subject_07,LASSO,alpha/lambda.1se,1/0.1713876,selected_n=4,0.1713876,4
+subject_08,LASSO,alpha/lambda.1se,1/0.1266444,selected_n=5,0.1266444,5
+subject_09,LASSO,alpha/lambda.1se,1/0.06691651,selected_n=7,0.06691651,7
+subject_10,LASSO,alpha/lambda.1se,1/0.2166102,selected_n=3,0.2166102,3
+subject_11,LASSO,alpha/lambda.1se,1/0.008260293,selected_n=7,0.008260293,7

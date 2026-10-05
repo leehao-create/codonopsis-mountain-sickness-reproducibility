@@ -1,0 +1,8 @@
+module,archived_project_source,repository_destination,assembly_action
+network_pharmacology,revision_ijms/rebuild_final/00_fig1_network_pharmacology,analysis/network_pharmacology,copy final derived data/scripts/results; exclude raw restricted database exports
+differential_expression,revision_ijms/final_bulk and revision_ijms/reanalysis/phase3_transcriptomics,analysis/differential_expression,copy frozen final scripts/inputs/results without analysis rerun
+WGCNA,revision_ijms/reanalysis/bulk_revision/GSE75665 and revision_ijms/reanalysis/revised_WGCNA_final,analysis/WGCNA,preserve authoritative beta=30 revised analysis only
+machine_learning,revision_ijms/reanalysis/revised_ML_final and revision_ijms/fig5_feature_prioritization,analysis/machine_learning,copy frozen nested-LOSO results/dependencies/figures; exclude invalid GSE260910 workflow
+single_cell,revision_ijms/phase6_candidate_integration and lhh/05.singlecell,analysis/single_cell,copy final descriptive localization outputs; exclude custom HCL RDS objects and retain checksums/acquisition notes
+cell_composition,revision_ijms/reviewer1_cell_composition_audit,analysis/cell_composition,copy final marker audit; exclude manuscript claim audit/internal report
+molecular_docking,revision_ijms/reanalysis/reviewer1_docking_rerun,analysis/molecular_docking,copy final 2AA2/1GKC rerun excluding installed software environment and old docking

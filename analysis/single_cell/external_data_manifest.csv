@@ -1,0 +1,3 @@
+expected_file,source,accession,tissue_scope,archived_bytes,archived_sha256,archived_md5,redistributed
+blood1.rds,Human Cell Landscape / NCBI GEO,GSE134355,Adult peripheral blood,61144916,5c54715a1da21dd4f778ffc74f3d0a8ee0c71956c94889bffb5b4064e690c241,d32c709742791ea01b75e85e6a76d7f2,no
+lung1.rds,Human Cell Landscape / NCBI GEO,GSE134355,Adult and fetal lung,142405874,c56a2bd0a7174ff0e37027bd8a0cba678fb26cdc7dff7e76fd7a6fa4162f4554,d11a868d552c37554bd601d57ff1e519,no

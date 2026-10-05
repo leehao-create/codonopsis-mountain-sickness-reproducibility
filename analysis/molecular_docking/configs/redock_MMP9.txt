@@ -1,0 +1,14 @@
+receptor = prepared/MMP9/receptor.pdbqt
+ligand = results/redocking/MMP9/native_ligand.pdbqt
+out = results/redocking/MMP9/native_redocked.pdbqt
+center_x = 65.839
+center_y = 30.707
+center_z = 117.746
+size_x = 22.0
+size_y = 22.0
+size_z = 23.0
+exhaustiveness = 64
+num_modes = 20
+energy_range = 8
+seed = 20260927
+cpu = 8

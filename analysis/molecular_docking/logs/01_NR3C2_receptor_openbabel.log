@@ -1,0 +1,3 @@
+COMMAND: obabel -ipdb <module_root>/prepared/NR3C2/receptor_for_openbabel.pdb -opdbqt -O <module_root>/prepared/NR3C2/receptor.pdbqt -xr --partialcharge gasteiger
+
+1 molecule converted

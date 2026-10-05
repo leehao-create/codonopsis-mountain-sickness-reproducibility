@@ -1,0 +1,45 @@
+﻿outer_fold,method,parameter,value,secondary
+subject_01,LASSO,alpha/lambda.1se,1/0.1049625,selected_n=6
+subject_01,Elastic Net,alpha/lambda.1se,0.3/0.02056571,selected_n=26
+subject_01,RF,mtry,6,OOB_balanced_accuracy=0.95
+subject_01,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1
+subject_02,LASSO,alpha/lambda.1se,1/0.1121855,selected_n=4
+subject_02,Elastic Net,alpha/lambda.1se,0.3/0.05023663,selected_n=23
+subject_02,RF,mtry,1,OOB_balanced_accuracy=0.95
+subject_02,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1
+subject_03,LASSO,alpha/lambda.1se,1/0.1574658,selected_n=3
+subject_03,Elastic Net,alpha/lambda.1se,0.3/0.04947935,selected_n=22
+subject_03,RF,mtry,1,OOB_balanced_accuracy=0.9
+subject_03,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1
+subject_04,LASSO,alpha/lambda.1se,1/0.1360891,selected_n=6
+subject_04,Elastic Net,alpha/lambda.1se,0.3/0.03000647,selected_n=26
+subject_04,RF,mtry,1,OOB_balanced_accuracy=0.95
+subject_04,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1
+subject_05,LASSO,alpha/lambda.1se,1/0.199227,selected_n=2
+subject_05,Elastic Net,alpha/lambda.1se,0.3/0.07044787,selected_n=21
+subject_05,RF,mtry,1,OOB_balanced_accuracy=0.95
+subject_05,SVM-RFE,cost,0.1,subset_size=39;inner_balanced_accuracy=1
+subject_06,LASSO,alpha/lambda.1se,1/0.1749171,selected_n=4
+subject_06,Elastic Net,alpha/lambda.1se,0.3/0.06185176,selected_n=22
+subject_06,RF,mtry,1,OOB_balanced_accuracy=1
+subject_06,SVM-RFE,cost,0.01,subset_size=39;inner_balanced_accuracy=1
+subject_07,LASSO,alpha/lambda.1se,1/0.1713876,selected_n=4
+subject_07,Elastic Net,alpha/lambda.1se,0.3/0.02651703,selected_n=26
+subject_07,RF,mtry,1,OOB_balanced_accuracy=0.9
+subject_07,SVM-RFE,cost,0.1,subset_size=20;inner_balanced_accuracy=1
+subject_08,LASSO,alpha/lambda.1se,1/0.1266444,selected_n=5
+subject_08,Elastic Net,alpha/lambda.1se,0.3/0.02205025,selected_n=24
+subject_08,RF,mtry,1,OOB_balanced_accuracy=0.9
+subject_08,SVM-RFE,cost,0.1,subset_size=20;inner_balanced_accuracy=1
+subject_09,LASSO,alpha/lambda.1se,1/0.06691651,selected_n=7
+subject_09,Elastic Net,alpha/lambda.1se,0.3/0.02102669,selected_n=23
+subject_09,RF,mtry,1,OOB_balanced_accuracy=0.95
+subject_09,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1
+subject_10,LASSO,alpha/lambda.1se,1/0.2166102,selected_n=3
+subject_10,Elastic Net,alpha/lambda.1se,0.1/0.1005416,selected_n=31
+subject_10,RF,mtry,1,OOB_balanced_accuracy=0.95
+subject_10,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=0.95
+subject_11,LASSO,alpha/lambda.1se,1/0.008260293,selected_n=7
+subject_11,Elastic Net,alpha/lambda.1se,0.9/0.00724751,selected_n=8
+subject_11,RF,mtry,1,OOB_balanced_accuracy=0.9
+subject_11,SVM-RFE,cost,0.01,subset_size=5;inner_balanced_accuracy=1

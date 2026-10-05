@@ -1,0 +1,3 @@
+COMMAND: obabel -isdf <module_root>/inputs/candidate_ligands/MOL004355_PubChem3D.sdf -osdf -O <module_root>/results/candidate_docking/NR3C2/MOL004355/MOL004355_pH7.4_MMFF94_minimized.sdf -p 7.4 --minimize --ff MMFF94 --steps 500 --crit 1e-6
+
+1 molecule converted

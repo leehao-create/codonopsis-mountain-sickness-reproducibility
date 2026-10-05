@@ -1,0 +1,6 @@
+"method","subjects_correct","total_subjects","paired_ranking_accuracy"
+"ElasticNet",11,11,1
+"Ensemble",11,11,1
+"LASSO",11,11,1
+"RF",11,11,1
+"SVM",11,11,1

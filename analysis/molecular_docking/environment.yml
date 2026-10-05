@@ -1,0 +1,14 @@
+name: reviewer1-docking-rerun
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - vina=1.2.7
+  - meeko=0.8.0
+  - openbabel=3.2.1
+  - rdkit=2026.03.1
+  - pdbfixer=1.12
+  - openmm=8.6.1
+  - pandas
+  - scipy
+

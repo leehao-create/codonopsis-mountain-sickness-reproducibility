@@ -1,0 +1,12 @@
+outer_fold,method,parameter,value,secondary,cost,subset_size,inner_balanced_accuracy
+subject_01,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1,0.01,10,1.0
+subject_02,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1,0.01,10,1.0
+subject_03,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1,0.01,10,1.0
+subject_04,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1,0.01,10,1.0
+subject_05,SVM-RFE,cost,0.1,subset_size=39;inner_balanced_accuracy=1,0.1,39,1.0
+subject_06,SVM-RFE,cost,0.01,subset_size=39;inner_balanced_accuracy=1,0.01,39,1.0
+subject_07,SVM-RFE,cost,0.1,subset_size=20;inner_balanced_accuracy=1,0.1,20,1.0
+subject_08,SVM-RFE,cost,0.1,subset_size=20;inner_balanced_accuracy=1,0.1,20,1.0
+subject_09,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=1,0.01,10,1.0
+subject_10,SVM-RFE,cost,0.01,subset_size=10;inner_balanced_accuracy=0.95,0.01,10,0.95
+subject_11,SVM-RFE,cost,0.01,subset_size=5;inner_balanced_accuracy=1,0.01,5,1.0

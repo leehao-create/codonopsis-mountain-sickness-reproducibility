@@ -1,0 +1,2 @@
+COMMAND: mk_export.py <module_root>/results/candidate_docking/NR3C2/MOL004355/MOL004355_docked.pdbqt -s <module_root>/results/candidate_docking/NR3C2/MOL004355/MOL004355_docked.sdf
+

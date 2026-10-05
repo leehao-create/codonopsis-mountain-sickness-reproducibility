@@ -1,0 +1,4 @@
+"module","module_size","overlapping_targets","targets_in_network_universe","odds_ratio","P_value","target_genes","BH_FDR"
+"blue",94,2,15,6.98429713417533,0.0414620213932387,"HBB;SNCA",0.124386064179716
+"turquoise",4085,12,15,0.197569047174074,0.995517147642391,"ADRB2;AKR1B1;ATM;FCER2;HIF1A;HMOX1;IL1B;MAPK14;MMP9;PTGS2;TIMP1;TP53",1
+"brown",52,0,15,0,1,"",1

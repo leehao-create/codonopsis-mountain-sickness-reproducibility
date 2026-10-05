@@ -1,0 +1,3 @@
+target,pdb_id,co_crystallized_ligand,top_pose_affinity_kcal_mol,top_pose_symmetry_corrected_heavy_atom_RMSD_A,minimum_RMSD_A,minimum_RMSD_pose_rank,pass_threshold_A,top_pose_pass,RMSD_method,exhaustiveness,num_modes,energy_range,random_seed
+NR3C2,2AA2,aldosterone,-12.112,0.064,0.064,1,2.0,True,"RDKit GetBestRMS, symmetry-corrected heavy-atom RMSD in unchanged receptor frame",64,20,8,20260927
+MMP9,1GKC,reverse-hydroxamate inhibitor NFH,-6.886,1.362,1.142,3,2.0,True,"RDKit GetBestRMS, symmetry-corrected heavy-atom RMSD in unchanged receptor frame",64,20,8,20260927

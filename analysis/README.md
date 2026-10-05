@@ -1,0 +1,13 @@
+# Analysis modules
+
+| Module | Authoritative content | Entry point / validation |
+|---|---|---|
+| Network pharmacology | Frozen 54-target list, Figure 1 PPI metrics and enrichment display values | `network_pharmacology/scripts/draw_Fig1_final_candidate.py` |
+| Differential expression | GSE103940 paired count/TMM/voom analysis; GSE75665 interaction/GSEA; GSE260910 exclusion audit | numbered scripts under `differential_expression/scripts/` |
+| WGCNA | Final revised GSE75665 beta=30 signed network only | `WGCNA/scripts/03_GSE75665_signed_WGCNA.R` |
+| Machine learning | Frozen GSE103940 nested subject-level LOSO, stability and paired permutation analysis | scripts `01`-`04`; `99_validate_outputs.R` validates frozen tables |
+| Single cell | Descriptive Human Cell Landscape blood/lung localization | `single_cell/scripts/01_single_cell_candidate_localization.R` |
+| Cell composition | Expression-based lineage-marker proxy audit | `cell_composition/scripts/01_cell_composition_marker_audit.R` |
+| Molecular docking | Final NR3C2/MMP9 reviewer-response rerun using 2AA2/1GKC | activate Conda environment, then `molecular_docking/scripts/run_all.sh` |
+
+The `results/` directories are immutable frozen outputs. Reproduction scripts use module-local `reproduced_results/` or `reproduced_figures/` directories by default. The ML GSE75665 material is explicitly supplementary/exploratory; GSE260910 is not used for HAPE inference or ML.

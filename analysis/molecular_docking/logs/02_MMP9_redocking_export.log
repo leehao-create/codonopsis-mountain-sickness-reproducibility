@@ -1,0 +1,2 @@
+COMMAND: mk_export.py <module_root>/results/redocking/MMP9/native_redocked.pdbqt -s <module_root>/results/redocking/MMP9/native_redocked.sdf
+

@@ -1,0 +1,2 @@
+"selected_power","R2_threshold_met","decision_rule"
+30,FALSE,"No power met R2 >= 0.85; selected maximum R2 among negative-slope powers with mean connectivity >= 1: beta=30. Diagnostic extension through beta=50 also failed R2=0.85 (maximum extended R2=0.4007)"

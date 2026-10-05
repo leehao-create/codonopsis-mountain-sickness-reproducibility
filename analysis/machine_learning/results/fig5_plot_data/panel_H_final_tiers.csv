@@ -1,0 +1,8 @@
+gene,number_of_methods_supported,tier,mean_frequency
+GATA1,3,Tier 2,0.55625
+CA2,3,Tier 2,0.605
+HBB,3,Tier 2,0.625
+APP,3,Tier 2,0.7137500000000001
+BCL2,4,Tier 1,0.77125
+SNCA,4,Tier 1,0.925
+ATM,4,Tier 1,0.9537500000000001

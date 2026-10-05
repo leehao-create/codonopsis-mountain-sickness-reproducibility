@@ -1,0 +1,55 @@
+﻿Gene,LASSO selection frequency,Elastic Net selection frequency,RF median permutation importance,RF stability frequency,SVM-RFE selection frequency,Supported methods,Number of supported methods,Final category
+ATM,0.975,1,0.0212134920634921,0.93,0.91,LASSO; Elastic Net; Random Forest; SVM-RFE,4,Tier 1
+SNCA,0.97,1,0.0166059523809523,0.795,0.935,LASSO; Elastic Net; Random Forest; SVM-RFE,4,Tier 1
+BCL2,0.64,1,0.0150134920634921,0.665,0.78,LASSO; Elastic Net; Random Forest; SVM-RFE,4,Tier 1
+APP,0.465,1,0.0127694444444445,0.65,0.74,Elastic Net; Random Forest; SVM-RFE,3,Tier 2
+HBB,0.11,0.9,0.0113444444444444,0.71,0.78,Elastic Net; Random Forest; SVM-RFE,3,Tier 2
+CA2,0.04,0.915,0.0157674603174603,0.79,0.675,Elastic Net; Random Forest; SVM-RFE,3,Tier 2
+GATA1,0,0.9,0.0106853174603175,0.67,0.655,Elastic Net; Random Forest; SVM-RFE,3,Tier 2
+HMOX1,0.345,1,0.00751904761904762,0.42,0.61,Elastic Net; SVM-RFE,2,Secondary
+PGM1,0.45,0.985,0.00875515873015873,0.715,0.55,Elastic Net; Random Forest,2,Secondary
+FCER2,0.435,0.98,-0.000575,0.08,0.71,Elastic Net; SVM-RFE,2,Secondary
+SERPINE1,0.245,0.915,0.00604960317460317,0.19,0.51,Elastic Net,1,Secondary
+CXCL8,0.015,0.91,0.000875793650793651,0.035,0.34,Elastic Net,1,Secondary
+ESR1,0,0.9,0.00407222222222222,0.28,0.57,Elastic Net,1,Secondary
+CYCS,0.065,0.885,0.00212896825396826,0.095,0.395,Elastic Net,1,Secondary
+PTGER3,0.035,0.735,0.0050670634920635,0.175,0.325,Elastic Net,1,Secondary
+CD40,0.03,0.725,0.000488095238095238,0.015,0.26,Elastic Net,1,Secondary
+IL1B,0,0.725,0.000475,0.155,0.255,Elastic Net,1,Secondary
+CDKN2A,0,0.72,0.00220238095238095,0.095,0.29,Elastic Net,1,Secondary
+MAPK14,0,0.7,-0.000845238095238095,0,0.31,Elastic Net,1,Secondary
+NR3C2,0.02,0.595,0.00679365079365079,0.26,0.25,None,0,Not stable
+ADRB2,0.02,0.545,-0.000412698412698413,0,0.175,None,0,Not stable
+NR3C1,0.03,0.52,0.00177539682539682,0.135,0.205,None,0,Not stable
+CASP9,0,0.475,0.000395238095238095,0.025,0.15,None,0,Not stable
+HP,0,0.4,0.00117063492063492,0.05,0.16,None,0,Not stable
+TP53,0,0.39,-0.00109444444444444,0,0.16,None,0,Not stable
+TSHR,0.01,0.37,-0.000113492063492063,0.025,0.1,None,0,Not stable
+AKR1B1,0,0.315,-0.000542460317460318,0.005,0.135,None,0,Not stable
+MMP9,0,0.255,0.000651190476190476,0.01,0.08,None,0,Not stable
+ABCB1,0,0.215,0.0021265873015873,0.085,0.07,None,0,Not stable
+PTGS2,0,0.215,-0.00075,0,0.09,None,0,Not stable
+HIF1A,0,0.14,0.000778174603174603,0.035,0.03,None,0,Not stable
+TFRC,0,0.09,0,0.005,0.05,None,0,Not stable
+INSR,0,0.06,-0.000321031746031746,0.035,0.03,None,0,Not stable
+TIMP1,0,0.055,-0.000658333333333333,0.005,0.06,None,0,Not stable
+IFNG,0,0.04,-0.001,0,0.03,None,0,Not stable
+VEGFA,0,0.035,-0.00091031746031746,0,0.05,None,0,Not stable
+NOS3,0,0.02,-0.000894444444444444,0.015,0.03,None,0,Not stable
+IL2RA,0,0,-0.000743650793650794,0,0.03,None,0,Not stable
+SOD1,0,0,-0.000239285714285714,0.01,0.03,None,0,Not stable
+ADRA2B,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+APOB,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+CCK,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+EGFR,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+F7,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+IGF1,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+IL13,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+IL6,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+INS,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+MMP2,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+TAC1,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+TF,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+TIMP3,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+TYR,NA,NA,NA,NA,NA,None,0,Not expression-eligible
+VEGFD,NA,NA,NA,NA,NA,None,0,Not expression-eligible

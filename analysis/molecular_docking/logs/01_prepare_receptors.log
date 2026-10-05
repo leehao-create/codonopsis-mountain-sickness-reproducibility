@@ -1,0 +1,4 @@
+[09:53:44] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[09:53:46] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[09:53:46] WARNING: More than one matching pattern found - picking one
+

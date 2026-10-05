@@ -1,0 +1,1220 @@
+"tissue","celltype","n_cells","gene","average_log_normalized_expression","percent_expressed"
+"blood","B cell",368,"PTGER3",0,0
+"blood","B cell",368,"MMP2",0,0
+"blood","B cell",368,"NR3C2",0.00781203757908173,0.271739130434783
+"blood","B cell",368,"IGF1",0,0
+"blood","B cell",368,"CYCS",0.229536506455806,7.33695652173913
+"blood","B cell",368,"HMOX1",0.113482012147614,3.53260869565217
+"blood","B cell",368,"INS",0,0
+"blood","B cell",368,"IL2RA",0.00963553187732079,0.271739130434783
+"blood","B cell",368,"TIMP3",0,0
+"blood","B cell",368,"ADRA2B",0,0
+"blood","B cell",368,"EGFR",0,0
+"blood","B cell",368,"SOD1",0.661840914110163,20.1086956521739
+"blood","B cell",368,"IFNG",0.00982925405574083,0.271739130434783
+"blood","B cell",368,"BCL2",0.0165325952823766,0.543478260869565
+"blood","B cell",368,"TF",0,0
+"blood","B cell",368,"F7",0,0
+"blood","B cell",368,"CD40",0.304226175701482,9.23913043478261
+"blood","B cell",368,"AKR1B1",0.154289462627291,4.89130434782609
+"blood","B cell",368,"CA2",0.0348478445638454,1.08695652173913
+"blood","B cell",368,"HIF1A",0.0525255640784899,1.6304347826087
+"blood","B cell",368,"NOS3",0,0
+"blood","B cell",368,"CXCL8",0.00840606505640135,0.271739130434783
+"blood","B cell",368,"HBB",0.225276305129012,6.52173913043478
+"blood","B cell",368,"GATA1",0,0
+"blood","B cell",368,"ABCB1",0,0
+"blood","B cell",368,"NR3C1",0.0451461993340503,1.35869565217391
+"blood","B cell",368,"HP",0.0182014431324721,0.543478260869565
+"blood","B cell",368,"TYR",0,0
+"blood","B cell",368,"SERPINE1",0,0
+"blood","B cell",368,"MAPK14",0.0206845443611995,0.815217391304348
+"blood","B cell",368,"TP53",0.104530173189985,3.26086956521739
+"blood","B cell",368,"INSR",0.00850068839846166,0.271739130434783
+"blood","B cell",368,"CASP9",0.0516948249143494,1.6304347826087
+"blood","B cell",368,"PGM1",0.0266596107878542,0.815217391304348
+"blood","B cell",368,"FCER2",0.383814435535016,11.6847826086957
+"blood","B cell",368,"VEGFD",0,0
+"blood","B cell",368,"PTGS2",0,0
+"blood","B cell",368,"IL1B",0.00707252631914235,0.271739130434783
+"blood","B cell",368,"ATM",0.160074845162059,4.89130434782609
+"blood","B cell",368,"ESR1",0,0
+"blood","B cell",368,"TAC1",0,0
+"blood","B cell",368,"SNCA",0.00843905168443771,0.271739130434783
+"blood","B cell",368,"CCK",0,0
+"blood","B cell",368,"ADRB2",0.0360266029607316,1.08695652173913
+"blood","B cell",368,"VEGFA",0,0
+"blood","B cell",368,"CDKN2A",0.00903636721681525,0.271739130434783
+"blood","B cell",368,"TFRC",0.0361050389812578,1.08695652173913
+"blood","B cell",368,"TSHR",0,0
+"blood","B cell",368,"TIMP1",0.201225697892561,6.52173913043478
+"blood","B cell",368,"IL13",0,0
+"blood","B cell",368,"IL6",0,0
+"blood","B cell",368,"APP",0.00890633075695645,0.271739130434783
+"blood","B cell",368,"MMP9",0,0
+"blood","CD4T",2439,"PTGER3",0,0
+"blood","CD4T",2439,"MMP2",0,0
+"blood","CD4T",2439,"NR3C2",0.00253026540097064,0.0820008200082001
+"blood","CD4T",2439,"IGF1",0,0
+"blood","CD4T",2439,"CYCS",0.256745062740371,8.03608036080361
+"blood","CD4T",2439,"HMOX1",0.032180655814957,1.0250102501025
+"blood","CD4T",2439,"INS",0,0
+"blood","CD4T",2439,"IL2RA",0.00776906652770179,0.2460024600246
+"blood","CD4T",2439,"TIMP3",0,0
+"blood","CD4T",2439,"ADRA2B",0,0
+"blood","CD4T",2439,"EGFR",0,0
+"blood","CD4T",2439,"SOD1",0.827994998988733,24.9692496924969
+"blood","CD4T",2439,"IFNG",0.00754249289356173,0.2460024600246
+"blood","CD4T",2439,"BCL2",0.0504732806526468,1.5170151701517
+"blood","CD4T",2439,"TF",0,0
+"blood","CD4T",2439,"F7",0,0
+"blood","CD4T",2439,"CD40",0.00671267995339589,0.2050020500205
+"blood","CD4T",2439,"AKR1B1",0.161241138602622,5.0840508405084
+"blood","CD4T",2439,"CA2",0.00511853046995042,0.1640016400164
+"blood","CD4T",2439,"HIF1A",0.0564504917845508,1.7630176301763
+"blood","CD4T",2439,"NOS3",0,0
+"blood","CD4T",2439,"CXCL8",0.0115256269491228,0.3690036900369
+"blood","CD4T",2439,"HBB",0.174326659645206,5.1250512505125
+"blood","CD4T",2439,"GATA1",0,0
+"blood","CD4T",2439,"ABCB1",0.0119400091994161,0.3690036900369
+"blood","CD4T",2439,"NR3C1",0.0739307453651567,2.2140221402214
+"blood","CD4T",2439,"HP",0.00144194195446322,0.0410004100041
+"blood","CD4T",2439,"TYR",0,0
+"blood","CD4T",2439,"SERPINE1",0,0
+"blood","CD4T",2439,"MAPK14",0.0261661813177792,0.820008200082001
+"blood","CD4T",2439,"TP53",0.0553022884172661,1.7220172201722
+"blood","CD4T",2439,"INSR",0.00134988792740444,0.0410004100041
+"blood","CD4T",2439,"CASP9",0.00742953185320433,0.2460024600246
+"blood","CD4T",2439,"PGM1",0.0420106694048311,1.3120131201312
+"blood","CD4T",2439,"FCER2",0.00852027275482447,0.2870028700287
+"blood","CD4T",2439,"VEGFD",0,0
+"blood","CD4T",2439,"PTGS2",0.0064342996158743,0.2050020500205
+"blood","CD4T",2439,"IL1B",0.0183503776060785,0.574005740057401
+"blood","CD4T",2439,"ATM",0.14639460883272,4.5920459204592
+"blood","CD4T",2439,"ESR1",0,0
+"blood","CD4T",2439,"TAC1",0,0
+"blood","CD4T",2439,"SNCA",0.00946349960675721,0.2870028700287
+"blood","CD4T",2439,"CCK",0,0
+"blood","CD4T",2439,"ADRB2",0.0251801344119665,0.779007790077901
+"blood","CD4T",2439,"VEGFA",0.00380041650393022,0.1230012300123
+"blood","CD4T",2439,"CDKN2A",0.00415969644532149,0.1230012300123
+"blood","CD4T",2439,"TFRC",0.0231224795421216,0.697006970069701
+"blood","CD4T",2439,"TSHR",0,0
+"blood","CD4T",2439,"TIMP1",0.292482355762769,8.89708897088971
+"blood","CD4T",2439,"IL13",0,0
+"blood","CD4T",2439,"IL6",0,0
+"blood","CD4T",2439,"APP",0.0268888108906216,0.861008610086101
+"blood","CD4T",2439,"MMP9",0.00405729298627558,0.1230012300123
+"blood","CD8T",2661,"PTGER3",0,0
+"blood","CD8T",2661,"MMP2",0,0
+"blood","CD8T",2661,"NR3C2",0,0
+"blood","CD8T",2661,"IGF1",0,0
+"blood","CD8T",2661,"CYCS",0.543679855187199,17.9631717399474
+"blood","CD8T",2661,"HMOX1",0.0321992658572093,1.08981585869974
+"blood","CD8T",2661,"INS",0,0
+"blood","CD8T",2661,"IL2RA",0,0
+"blood","CD8T",2661,"TIMP3",0,0
+"blood","CD8T",2661,"ADRA2B",0,0
+"blood","CD8T",2661,"EGFR",0,0
+"blood","CD8T",2661,"SOD1",0.84816292783808,27.4332957534761
+"blood","CD8T",2661,"IFNG",0.0801711956594939,2.63059000375799
+"blood","CD8T",2661,"BCL2",0.0267101293730687,0.864336715520481
+"blood","CD8T",2661,"TF",0,0
+"blood","CD8T",2661,"F7",0,0
+"blood","CD8T",2661,"CD40",0.0143495881115635,0.450958286358512
+"blood","CD8T",2661,"AKR1B1",0.241222801279627,7.9293498684705
+"blood","CD8T",2661,"CA2",0.00207443611119277,0.0751597143930853
+"blood","CD8T",2661,"HIF1A",0.0418165353454186,1.39045471627208
+"blood","CD8T",2661,"NOS3",0.00246534973318879,0.0751597143930853
+"blood","CD8T",2661,"CXCL8",0.0109758862113587,0.338218714768884
+"blood","CD8T",2661,"HBB",0.173415387153479,5.18602029312289
+"blood","CD8T",2661,"GATA1",0,0
+"blood","CD8T",2661,"ABCB1",0.00745657444751743,0.225479143179256
+"blood","CD8T",2661,"NR3C1",0.089194180310296,2.89364900413378
+"blood","CD8T",2661,"HP",0.00111400338590242,0.0375798571965427
+"blood","CD8T",2661,"TYR",0,0
+"blood","CD8T",2661,"SERPINE1",0,0
+"blood","CD8T",2661,"MAPK14",0.0295645057448339,0.977076287110109
+"blood","CD8T",2661,"TP53",0.0700651062625817,2.40511086057873
+"blood","CD8T",2661,"INSR",0.00337939990561186,0.112739571589628
+"blood","CD8T",2661,"CASP9",0.0108549187636468,0.338218714768884
+"blood","CD8T",2661,"PGM1",0.0476427690598279,1.54077414505825
+"blood","CD8T",2661,"FCER2",0.00539726644877421,0.187899285982713
+"blood","CD8T",2661,"VEGFD",0,0
+"blood","CD8T",2661,"PTGS2",0.00225856110243267,0.0751597143930853
+"blood","CD8T",2661,"IL1B",0.011258839893905,0.375798571965427
+"blood","CD8T",2661,"ATM",0.137435394778145,4.47200300638858
+"blood","CD8T",2661,"ESR1",0,0
+"blood","CD8T",2661,"TAC1",0,0
+"blood","CD8T",2661,"SNCA",0.00739653587410648,0.263059000375799
+"blood","CD8T",2661,"CCK",0,0
+"blood","CD8T",2661,"ADRB2",0.129792048132258,4.05862457722661
+"blood","CD8T",2661,"VEGFA",0.0012163513489187,0.0375798571965427
+"blood","CD8T",2661,"CDKN2A",0.0297486807067379,1.05223600150319
+"blood","CD8T",2661,"TFRC",0.0145119407143398,0.488538143555054
+"blood","CD8T",2661,"TSHR",0,0
+"blood","CD8T",2661,"TIMP1",0.26786643247636,8.49304772641864
+"blood","CD8T",2661,"IL13",0,0
+"blood","CD8T",2661,"IL6",0,0
+"blood","CD8T",2661,"APP",0.0212134324884464,0.71401728673431
+"blood","CD8T",2661,"MMP9",0.00117402752654482,0.0375798571965427
+"blood","dendritic cell",971,"PTGER3",0.00264079424702276,0.102986611740474
+"blood","dendritic cell",971,"MMP2",0,0
+"blood","dendritic cell",971,"NR3C2",0.00299377732538985,0.102986611740474
+"blood","dendritic cell",971,"IGF1",0,0
+"blood","dendritic cell",971,"CYCS",0.399794574155364,13.4912461380021
+"blood","dendritic cell",971,"HMOX1",0.0884268575023667,3.08959835221421
+"blood","dendritic cell",971,"INS",0,0
+"blood","dendritic cell",971,"IL2RA",0,0
+"blood","dendritic cell",971,"TIMP3",0,0
+"blood","dendritic cell",971,"ADRA2B",0,0
+"blood","dendritic cell",971,"EGFR",0,0
+"blood","dendritic cell",971,"SOD1",0.466920055249743,15.9629248197734
+"blood","dendritic cell",971,"IFNG",0.00326569450239641,0.102986611740474
+"blood","dendritic cell",971,"BCL2",0.0121434443859158,0.411946446961895
+"blood","dendritic cell",971,"TF",0,0
+"blood","dendritic cell",971,"F7",0,0
+"blood","dendritic cell",971,"CD40",0.0296879007281091,1.13285272914521
+"blood","dendritic cell",971,"AKR1B1",0.177238350993302,6.07621009268795
+"blood","dendritic cell",971,"CA2",0.0469045044034076,1.64778578784758
+"blood","dendritic cell",971,"HIF1A",0.0804751194481371,2.67765190525232
+"blood","dendritic cell",971,"NOS3",0,0
+"blood","dendritic cell",971,"CXCL8",0.00295421266347985,0.102986611740474
+"blood","dendritic cell",971,"HBB",0.0685593356733305,2.3686920700309
+"blood","dendritic cell",971,"GATA1",0,0
+"blood","dendritic cell",971,"ABCB1",0,0
+"blood","dendritic cell",971,"NR3C1",0.0657863764254755,2.26570545829042
+"blood","dendritic cell",971,"HP",0.00921986822972295,0.308959835221421
+"blood","dendritic cell",971,"TYR",0,0
+"blood","dendritic cell",971,"SERPINE1",0,0
+"blood","dendritic cell",971,"MAPK14",0.0392758682974286,1.33882595262616
+"blood","dendritic cell",971,"TP53",0.0722935481051247,2.67765190525232
+"blood","dendritic cell",971,"INSR",0.012032849724464,0.411946446961895
+"blood","dendritic cell",971,"CASP9",0.0415881570139088,1.44181256436663
+"blood","dendritic cell",971,"PGM1",0.0559473798729214,1.85375901132853
+"blood","dendritic cell",971,"FCER2",0.0238689087901363,0.82389289392379
+"blood","dendritic cell",971,"VEGFD",0,0
+"blood","dendritic cell",971,"PTGS2",0.00339070716265647,0.102986611740474
+"blood","dendritic cell",971,"IL1B",0.0618986412727416,2.16271884654995
+"blood","dendritic cell",971,"ATM",0.0606341396873459,2.16271884654995
+"blood","dendritic cell",971,"ESR1",0,0
+"blood","dendritic cell",971,"TAC1",0,0
+"blood","dendritic cell",971,"SNCA",0.0538670096698998,1.85375901132853
+"blood","dendritic cell",971,"CCK",0,0
+"blood","dendritic cell",971,"ADRB2",0.0857077329262364,2.88362512873326
+"blood","dendritic cell",971,"VEGFA",0.00335788209039173,0.102986611740474
+"blood","dendritic cell",971,"CDKN2A",0,0
+"blood","dendritic cell",971,"TFRC",0.0151042864892743,0.514933058702369
+"blood","dendritic cell",971,"TSHR",0,0
+"blood","dendritic cell",971,"TIMP1",0.775611658745626,25.5406797116375
+"blood","dendritic cell",971,"IL13",0,0
+"blood","dendritic cell",971,"IL6",0,0
+"blood","dendritic cell",971,"APP",0.0808163341472534,2.78063851699279
+"blood","dendritic cell",971,"MMP9",0.00333822940287875,0.102986611740474
+"blood","erythroid lineage cell",157,"PTGER3",0,0
+"blood","erythroid lineage cell",157,"MMP2",0,0
+"blood","erythroid lineage cell",157,"NR3C2",0,0
+"blood","erythroid lineage cell",157,"IGF1",0,0
+"blood","erythroid lineage cell",157,"CYCS",0.35532963937118,11.4649681528662
+"blood","erythroid lineage cell",157,"HMOX1",0.0552636580080735,1.91082802547771
+"blood","erythroid lineage cell",157,"INS",0,0
+"blood","erythroid lineage cell",157,"IL2RA",0.0406482642954547,1.27388535031847
+"blood","erythroid lineage cell",157,"TIMP3",0,0
+"blood","erythroid lineage cell",157,"ADRA2B",0,0
+"blood","erythroid lineage cell",157,"EGFR",0,0
+"blood","erythroid lineage cell",157,"SOD1",0.587229774744376,18.4713375796178
+"blood","erythroid lineage cell",157,"IFNG",0.0174030283977539,0.636942675159236
+"blood","erythroid lineage cell",157,"BCL2",0.0174115909296288,0.636942675159236
+"blood","erythroid lineage cell",157,"TF",0,0
+"blood","erythroid lineage cell",157,"F7",0,0
+"blood","erythroid lineage cell",157,"CD40",0.0183009766745975,0.636942675159236
+"blood","erythroid lineage cell",157,"AKR1B1",0.118708010118284,3.82165605095541
+"blood","erythroid lineage cell",157,"CA2",0.0235059919406426,0.636942675159236
+"blood","erythroid lineage cell",157,"HIF1A",0.0766303287571532,2.54777070063694
+"blood","erythroid lineage cell",157,"NOS3",0,0
+"blood","erythroid lineage cell",157,"CXCL8",0.114334832808225,3.82165605095541
+"blood","erythroid lineage cell",157,"HBB",5.37515346358177,92.3566878980892
+"blood","erythroid lineage cell",157,"GATA1",0,0
+"blood","erythroid lineage cell",157,"ABCB1",0,0
+"blood","erythroid lineage cell",157,"NR3C1",0.121957511930738,3.82165605095541
+"blood","erythroid lineage cell",157,"HP",0.0197290471801351,0.636942675159236
+"blood","erythroid lineage cell",157,"TYR",0,0
+"blood","erythroid lineage cell",157,"SERPINE1",0,0
+"blood","erythroid lineage cell",157,"MAPK14",0.0570645350084912,1.91082802547771
+"blood","erythroid lineage cell",157,"TP53",0.0391492106764805,1.27388535031847
+"blood","erythroid lineage cell",157,"INSR",0.0383011788710057,1.27388535031847
+"blood","erythroid lineage cell",157,"CASP9",0.0178665790190651,0.636942675159236
+"blood","erythroid lineage cell",157,"PGM1",0.0408086416731858,1.27388535031847
+"blood","erythroid lineage cell",157,"FCER2",0,0
+"blood","erythroid lineage cell",157,"VEGFD",0,0
+"blood","erythroid lineage cell",157,"PTGS2",0,0
+"blood","erythroid lineage cell",157,"IL1B",0.0953974134355864,3.18471337579618
+"blood","erythroid lineage cell",157,"ATM",0.0571611953425253,1.91082802547771
+"blood","erythroid lineage cell",157,"ESR1",0,0
+"blood","erythroid lineage cell",157,"TAC1",0,0
+"blood","erythroid lineage cell",157,"SNCA",0.350541230738822,11.4649681528662
+"blood","erythroid lineage cell",157,"CCK",0,0
+"blood","erythroid lineage cell",157,"ADRB2",0.0416376408268194,1.27388535031847
+"blood","erythroid lineage cell",157,"VEGFA",0.0578198688144314,1.91082802547771
+"blood","erythroid lineage cell",157,"CDKN2A",0.0206309735400521,0.636942675159236
+"blood","erythroid lineage cell",157,"TFRC",0.0184638027563263,0.636942675159236
+"blood","erythroid lineage cell",157,"TSHR",0,0
+"blood","erythroid lineage cell",157,"TIMP1",0.366684292144277,11.4649681528662
+"blood","erythroid lineage cell",157,"IL13",0,0
+"blood","erythroid lineage cell",157,"IL6",0,0
+"blood","erythroid lineage cell",157,"APP",0.0626597411840659,1.91082802547771
+"blood","erythroid lineage cell",157,"MMP9",0.0197290471801351,0.636942675159236
+"blood","monocyte1",5069,"PTGER3",0.000677639661912391,0.0197277569540343
+"blood","monocyte1",5069,"MMP2",0,0
+"blood","monocyte1",5069,"NR3C2",0.000676496535863248,0.0197277569540343
+"blood","monocyte1",5069,"IGF1",0.000596897166729656,0.0197277569540343
+"blood","monocyte1",5069,"CYCS",0.256152428826432,8.79857960149931
+"blood","monocyte1",5069,"HMOX1",0.227517851774926,7.69382521207339
+"blood","monocyte1",5069,"INS",0,0
+"blood","monocyte1",5069,"IL2RA",0,0
+"blood","monocyte1",5069,"TIMP3",0,0
+"blood","monocyte1",5069,"ADRA2B",0,0
+"blood","monocyte1",5069,"EGFR",0,0
+"blood","monocyte1",5069,"SOD1",0.410586750243159,13.6713355691458
+"blood","monocyte1",5069,"IFNG",0.00937504863176333,0.335371868218584
+"blood","monocyte1",5069,"BCL2",0.00675152894428364,0.236733083448412
+"blood","monocyte1",5069,"TF",0,0
+"blood","monocyte1",5069,"F7",0,0
+"blood","monocyte1",5069,"CD40",0.020234239112801,0.72992700729927
+"blood","monocyte1",5069,"AKR1B1",0.13952355448914,4.7149339120142
+"blood","monocyte1",5069,"CA2",0.0164299281536773,0.572104951666995
+"blood","monocyte1",5069,"HIF1A",0.0902419746705696,3.05780232787532
+"blood","monocyte1",5069,"NOS3",0.000650994307185403,0.0197277569540343
+"blood","monocyte1",5069,"CXCL8",0.0254143496473842,0.808838035115407
+"blood","monocyte1",5069,"HBB",0.105427993484079,3.51154073781811
+"blood","monocyte1",5069,"GATA1",0.000559822945007529,0.0197277569540343
+"blood","monocyte1",5069,"ABCB1",0.00112713574918527,0.0394555139080687
+"blood","monocyte1",5069,"NR3C1",0.109383021641143,3.68909055040442
+"blood","monocyte1",5069,"HP",0.0406533899744436,1.3809429867824
+"blood","monocyte1",5069,"TYR",0,0
+"blood","monocyte1",5069,"SERPINE1",0,0
+"blood","monocyte1",5069,"MAPK14",0.0885278233253851,3.05780232787532
+"blood","monocyte1",5069,"TP53",0.0609269354708433,2.13059775103571
+"blood","monocyte1",5069,"INSR",0.0145525003728836,0.493193923850858
+"blood","monocyte1",5069,"CASP9",0.0253613150091453,0.887749062931545
+"blood","monocyte1",5069,"PGM1",0.0488486364223781,1.69658709804695
+"blood","monocyte1",5069,"FCER2",0.00693615550558013,0.236733083448412
+"blood","monocyte1",5069,"VEGFD",0,0
+"blood","monocyte1",5069,"PTGS2",0.0126534715730569,0.414282896034721
+"blood","monocyte1",5069,"IL1B",0.051739857464024,1.75577036890905
+"blood","monocyte1",5069,"ATM",0.0719841884457925,2.40678634839219
+"blood","monocyte1",5069,"ESR1",0,0
+"blood","monocyte1",5069,"TAC1",0,0
+"blood","monocyte1",5069,"SNCA",0.0670744370987651,2.28841980666798
+"blood","monocyte1",5069,"CCK",0,0
+"blood","monocyte1",5069,"ADRB2",0.0580388397457842,1.93332018149536
+"blood","monocyte1",5069,"VEGFA",0.0133760248075835,0.434010652988755
+"blood","monocyte1",5069,"CDKN2A",0.00546899760040673,0.177549812586309
+"blood","monocyte1",5069,"TFRC",0.0170468494341396,0.59183270862103
+"blood","monocyte1",5069,"TSHR",0,0
+"blood","monocyte1",5069,"TIMP1",0.688132952597747,22.6277372262774
+"blood","monocyte1",5069,"IL13",0,0
+"blood","monocyte1",5069,"IL6",0,0
+"blood","monocyte1",5069,"APP",0.145342424053766,4.99112250937068
+"blood","monocyte1",5069,"MMP9",0.00115984218661838,0.0394555139080687
+"blood","monocyte2",2346,"PTGER3",0,0
+"blood","monocyte2",2346,"MMP2",0,0
+"blood","monocyte2",2346,"NR3C2",0.00141527208829006,0.0426257459505541
+"blood","monocyte2",2346,"IGF1",0,0
+"blood","monocyte2",2346,"CYCS",0.567653351631667,19.0537084398977
+"blood","monocyte2",2346,"HMOX1",0.442969721780603,14.7485080988917
+"blood","monocyte2",2346,"INS",0,0
+"blood","monocyte2",2346,"IL2RA",0.00115226354689112,0.0426257459505541
+"blood","monocyte2",2346,"TIMP3",0,0
+"blood","monocyte2",2346,"ADRA2B",0,0
+"blood","monocyte2",2346,"EGFR",0,0
+"blood","monocyte2",2346,"SOD1",0.651492520110419,21.5260017050298
+"blood","monocyte2",2346,"IFNG",0.00496125834205824,0.170502983802217
+"blood","monocyte2",2346,"BCL2",0.0123780677424744,0.426257459505541
+"blood","monocyte2",2346,"TF",0,0
+"blood","monocyte2",2346,"F7",0,0
+"blood","monocyte2",2346,"CD40",0.0466333279234455,1.61977834612106
+"blood","monocyte2",2346,"AKR1B1",0.0595659400761934,2.00341005967604
+"blood","monocyte2",2346,"CA2",0.0315726972831788,1.06564364876385
+"blood","monocyte2",2346,"HIF1A",0.0524358380897781,1.74765558397272
+"blood","monocyte2",2346,"NOS3",0,0
+"blood","monocyte2",2346,"CXCL8",0.0291103200184922,0.980392156862745
+"blood","monocyte2",2346,"HBB",0.0734377716506686,2.21653878942881
+"blood","monocyte2",2346,"GATA1",0,0
+"blood","monocyte2",2346,"ABCB1",0.00142638221282497,0.0426257459505541
+"blood","monocyte2",2346,"NR3C1",0.100799771408769,3.45268542199488
+"blood","monocyte2",2346,"HP",0.00114188538245729,0.0426257459505541
+"blood","monocyte2",2346,"TYR",0,0
+"blood","monocyte2",2346,"SERPINE1",0,0
+"blood","monocyte2",2346,"MAPK14",0.0390020369702753,1.36402387041773
+"blood","monocyte2",2346,"TP53",0.0511615123480867,1.79028132992327
+"blood","monocyte2",2346,"INSR",0.0161169424803733,0.554134697357204
+"blood","monocyte2",2346,"CASP9",0.024766684269512,0.809889173060529
+"blood","monocyte2",2346,"PGM1",0.0171701640254758,0.596760443307758
+"blood","monocyte2",2346,"FCER2",0.0125477263731861,0.426257459505541
+"blood","monocyte2",2346,"VEGFD",0,0
+"blood","monocyte2",2346,"PTGS2",0.0139803309639559,0.468883205456096
+"blood","monocyte2",2346,"IL1B",0.0469034004580742,1.66240409207161
+"blood","monocyte2",2346,"ATM",0.105072781812649,3.53793691389599
+"blood","monocyte2",2346,"ESR1",0,0
+"blood","monocyte2",2346,"TAC1",0,0
+"blood","monocyte2",2346,"SNCA",0.0171730811591761,0.596760443307758
+"blood","monocyte2",2346,"CCK",0,0
+"blood","monocyte2",2346,"ADRB2",0.0631070508936318,2.13128729752771
+"blood","monocyte2",2346,"VEGFA",0.00275244768933279,0.0852514919011083
+"blood","monocyte2",2346,"CDKN2A",0.0040806726346073,0.127877237851662
+"blood","monocyte2",2346,"TFRC",0.0418934553892502,1.44927536231884
+"blood","monocyte2",2346,"TSHR",0,0
+"blood","monocyte2",2346,"TIMP1",1.21359109623716,38.3631713554987
+"blood","monocyte2",2346,"IL13",0,0
+"blood","monocyte2",2346,"IL6",0,0
+"blood","monocyte2",2346,"APP",0.0438504316419125,1.5771526001705
+"blood","monocyte2",2346,"MMP9",0.00239742940809893,0.0852514919011083
+"blood","neutrophil",624,"PTGER3",0.00383551630363363,0.16025641025641
+"blood","neutrophil",624,"MMP2",0,0
+"blood","neutrophil",624,"NR3C2",0,0
+"blood","neutrophil",624,"IGF1",0,0
+"blood","neutrophil",624,"CYCS",0.304944691134786,10.5769230769231
+"blood","neutrophil",624,"HMOX1",0.0327051180053614,1.12179487179487
+"blood","neutrophil",624,"INS",0,0
+"blood","neutrophil",624,"IL2RA",0.00378295551367096,0.16025641025641
+"blood","neutrophil",624,"TIMP3",0,0
+"blood","neutrophil",624,"ADRA2B",0,0
+"blood","neutrophil",624,"EGFR",0,0
+"blood","neutrophil",624,"SOD1",0.248380941320098,8.49358974358974
+"blood","neutrophil",624,"IFNG",0.014501053710405,0.480769230769231
+"blood","neutrophil",624,"BCL2",0.0241435769830225,0.801282051282051
+"blood","neutrophil",624,"TF",0,0
+"blood","neutrophil",624,"F7",0,0
+"blood","neutrophil",624,"CD40",0.00958955294320456,0.32051282051282
+"blood","neutrophil",624,"AKR1B1",0.0216637073458847,0.801282051282051
+"blood","neutrophil",624,"CA2",0.0429440370310182,1.44230769230769
+"blood","neutrophil",624,"HIF1A",0.16760657591966,5.60897435897436
+"blood","neutrophil",624,"NOS3",0,0
+"blood","neutrophil",624,"CXCL8",0.0193819454273812,0.641025641025641
+"blood","neutrophil",624,"HBB",0.070690616039737,2.24358974358974
+"blood","neutrophil",624,"GATA1",0,0
+"blood","neutrophil",624,"ABCB1",0.00479023493362477,0.16025641025641
+"blood","neutrophil",624,"NR3C1",0.0903107704143774,3.04487179487179
+"blood","neutrophil",624,"HP",0.464187645401558,14.9038461538462
+"blood","neutrophil",624,"TYR",0,0
+"blood","neutrophil",624,"SERPINE1",0,0
+"blood","neutrophil",624,"MAPK14",0.25330523360507,8.49358974358974
+"blood","neutrophil",624,"TP53",0.0185362369411975,0.641025641025641
+"blood","neutrophil",624,"INSR",0.0413213023981372,1.44230769230769
+"blood","neutrophil",624,"CASP9",0.0201380620429866,0.641025641025641
+"blood","neutrophil",624,"PGM1",0.129273346271554,4.32692307692308
+"blood","neutrophil",624,"FCER2",0.0133180169576665,0.480769230769231
+"blood","neutrophil",624,"VEGFD",0,0
+"blood","neutrophil",624,"PTGS2",0.00357828287969833,0.16025641025641
+"blood","neutrophil",624,"IL1B",0.0196310874156345,0.641025641025641
+"blood","neutrophil",624,"ATM",0.0787412277048849,2.72435897435897
+"blood","neutrophil",624,"ESR1",0,0
+"blood","neutrophil",624,"TAC1",0,0
+"blood","neutrophil",624,"SNCA",0.00896542562616414,0.32051282051282
+"blood","neutrophil",624,"CCK",0,0
+"blood","neutrophil",624,"ADRB2",0.027688685323396,0.961538461538462
+"blood","neutrophil",624,"VEGFA",0.0529845947356459,1.76282051282051
+"blood","neutrophil",624,"CDKN2A",0,0
+"blood","neutrophil",624,"TFRC",0.073537812343537,2.56410256410256
+"blood","neutrophil",624,"TSHR",0,0
+"blood","neutrophil",624,"TIMP1",0.113661353942798,4.00641025641026
+"blood","neutrophil",624,"IL13",0,0
+"blood","neutrophil",624,"IL6",0,0
+"blood","neutrophil",624,"APP",0.412924989335473,13.9423076923077
+"blood","neutrophil",624,"MMP9",0.172194256754362,5.12820512820513
+"blood","NK",291,"PTGER3",0,0
+"blood","NK",291,"MMP2",0,0
+"blood","NK",291,"NR3C2",0,0
+"blood","NK",291,"IGF1",0,0
+"blood","NK",291,"CYCS",0.383900760554195,13.0584192439863
+"blood","NK",291,"HMOX1",0.0068186980843626,0.343642611683849
+"blood","NK",291,"INS",0,0
+"blood","NK",291,"IL2RA",0,0
+"blood","NK",291,"TIMP3",0,0
+"blood","NK",291,"ADRA2B",0,0
+"blood","NK",291,"EGFR",0,0
+"blood","NK",291,"SOD1",0.761142780497013,25.085910652921
+"blood","NK",291,"IFNG",0,0
+"blood","NK",291,"BCL2",0,0
+"blood","NK",291,"TF",0,0
+"blood","NK",291,"F7",0,0
+"blood","NK",291,"CD40",0.0212818998816879,0.687285223367698
+"blood","NK",291,"AKR1B1",0.104169978003834,3.78006872852234
+"blood","NK",291,"CA2",0.00895590693455988,0.343642611683849
+"blood","NK",291,"HIF1A",0.0602103179838196,2.06185567010309
+"blood","NK",291,"NOS3",0,0
+"blood","NK",291,"CXCL8",0,0
+"blood","NK",291,"HBB",0.0812898401486175,3.09278350515464
+"blood","NK",291,"GATA1",0,0
+"blood","NK",291,"ABCB1",0,0
+"blood","NK",291,"NR3C1",0.183579471027804,6.18556701030928
+"blood","NK",291,"HP",0,0
+"blood","NK",291,"TYR",0,0
+"blood","NK",291,"SERPINE1",0,0
+"blood","NK",291,"MAPK14",0.0230037363339738,0.687285223367698
+"blood","NK",291,"TP53",0.0645722788167323,2.06185567010309
+"blood","NK",291,"INSR",0.0213174375227307,0.687285223367698
+"blood","NK",291,"CASP9",0.00887321084477191,0.343642611683849
+"blood","NK",291,"PGM1",0.00980944851787627,0.343642611683849
+"blood","NK",291,"FCER2",0,0
+"blood","NK",291,"VEGFD",0,0
+"blood","NK",291,"PTGS2",0,0
+"blood","NK",291,"IL1B",0,0
+"blood","NK",291,"ATM",0.068023801669836,2.40549828178694
+"blood","NK",291,"ESR1",0,0
+"blood","NK",291,"TAC1",0,0
+"blood","NK",291,"SNCA",0.134615059767689,4.46735395189003
+"blood","NK",291,"CCK",0,0
+"blood","NK",291,"ADRB2",0.0408175053737343,1.3745704467354
+"blood","NK",291,"VEGFA",0,0
+"blood","NK",291,"CDKN2A",0,0
+"blood","NK",291,"TFRC",0.0491305035376235,1.71821305841924
+"blood","NK",291,"TSHR",0,0
+"blood","NK",291,"TIMP1",0.0617774173405092,2.06185567010309
+"blood","NK",291,"IL13",0,0
+"blood","NK",291,"IL6",0,0
+"blood","NK",291,"APP",0.73597733132493,24.0549828178694
+"blood","NK",291,"MMP9",0,0
+"blood","plasma cell",401,"PTGER3",0,0
+"blood","plasma cell",401,"MMP2",0,0
+"blood","plasma cell",401,"NR3C2",0,0
+"blood","plasma cell",401,"IGF1",0.050915382793602,1.99501246882793
+"blood","plasma cell",401,"CYCS",0.997266720405443,34.9127182044888
+"blood","plasma cell",401,"HMOX1",0.0125596581042228,0.498753117206983
+"blood","plasma cell",401,"INS",0,0
+"blood","plasma cell",401,"IL2RA",0,0
+"blood","plasma cell",401,"TIMP3",0,0
+"blood","plasma cell",401,"ADRA2B",0,0
+"blood","plasma cell",401,"EGFR",0,0
+"blood","plasma cell",401,"SOD1",0.602055472286904,22.1945137157107
+"blood","plasma cell",401,"IFNG",0.00759708029367437,0.249376558603491
+"blood","plasma cell",401,"BCL2",0.012361887160079,0.498753117206983
+"blood","plasma cell",401,"TF",0,0
+"blood","plasma cell",401,"F7",0,0
+"blood","plasma cell",401,"CD40",0.0758309527099681,2.9925187032419
+"blood","plasma cell",401,"AKR1B1",0.131313691253088,5.23690773067332
+"blood","plasma cell",401,"CA2",0.0274024364086531,0.997506234413965
+"blood","plasma cell",401,"HIF1A",0.0369203854977058,1.49625935162095
+"blood","plasma cell",401,"NOS3",0,0
+"blood","plasma cell",401,"CXCL8",0.0257954639097353,0.997506234413965
+"blood","plasma cell",401,"HBB",0.071114758262934,1.99501246882793
+"blood","plasma cell",401,"GATA1",0,0
+"blood","plasma cell",401,"ABCB1",0,0
+"blood","plasma cell",401,"NR3C1",0.0335983577239609,1.24688279301746
+"blood","plasma cell",401,"HP",0.00495905822808423,0.249376558603491
+"blood","plasma cell",401,"TYR",0,0
+"blood","plasma cell",401,"SERPINE1",0,0
+"blood","plasma cell",401,"MAPK14",0.0292128182434987,1.24688279301746
+"blood","plasma cell",401,"TP53",0.0288706670924327,1.24688279301746
+"blood","plasma cell",401,"INSR",0.013676114738747,0.498753117206983
+"blood","plasma cell",401,"CASP9",0.0309877883445954,1.24688279301746
+"blood","plasma cell",401,"PGM1",0.00620456127043149,0.249376558603491
+"blood","plasma cell",401,"FCER2",0.00438203530898923,0.249376558603491
+"blood","plasma cell",401,"VEGFD",0,0
+"blood","plasma cell",401,"PTGS2",0.0072492712791859,0.249376558603491
+"blood","plasma cell",401,"IL1B",0.0206225624078469,0.748129675810474
+"blood","plasma cell",401,"ATM",0.0607226239095073,2.49376558603491
+"blood","plasma cell",401,"ESR1",0.0142947566490935,0.498753117206983
+"blood","plasma cell",401,"TAC1",0,0
+"blood","plasma cell",401,"SNCA",0.0299033809813628,0.997506234413965
+"blood","plasma cell",401,"CCK",0,0
+"blood","plasma cell",401,"ADRB2",0,0
+"blood","plasma cell",401,"VEGFA",0.0140334553597507,0.498753117206983
+"blood","plasma cell",401,"CDKN2A",0.0749205713299667,2.7431421446384
+"blood","plasma cell",401,"TFRC",0.0836246229685225,3.24189526184539
+"blood","plasma cell",401,"TSHR",0.0283173440926892,1.24688279301746
+"blood","plasma cell",401,"TIMP1",0.125069556144231,4.98753117206983
+"blood","plasma cell",401,"IL13",0,0
+"blood","plasma cell",401,"IL6",0,0
+"blood","plasma cell",401,"APP",0.0205156998105673,0.748129675810474
+"blood","plasma cell",401,"MMP9",0.0170957679538812,0.498753117206983
+"blood","professional antigen presenting cell",2004,"PTGER3",0,0
+"blood","professional antigen presenting cell",2004,"MMP2",0,0
+"blood","professional antigen presenting cell",2004,"NR3C2",0.00127297019351037,0.0499001996007984
+"blood","professional antigen presenting cell",2004,"IGF1",0.00136140459875489,0.0499001996007984
+"blood","professional antigen presenting cell",2004,"CYCS",0.512507588537635,17.0159680638723
+"blood","professional antigen presenting cell",2004,"HMOX1",0.110664391058431,3.74251497005988
+"blood","professional antigen presenting cell",2004,"INS",0,0
+"blood","professional antigen presenting cell",2004,"IL2RA",0.0101248906912719,0.349301397205589
+"blood","professional antigen presenting cell",2004,"TIMP3",0,0
+"blood","professional antigen presenting cell",2004,"ADRA2B",0,0
+"blood","professional antigen presenting cell",2004,"EGFR",0,0
+"blood","professional antigen presenting cell",2004,"SOD1",0.494240618966453,16.5169660678643
+"blood","professional antigen presenting cell",2004,"IFNG",0,0
+"blood","professional antigen presenting cell",2004,"BCL2",0.0168007078384895,0.548902195608783
+"blood","professional antigen presenting cell",2004,"TF",0,0
+"blood","professional antigen presenting cell",2004,"F7",0,0
+"blood","professional antigen presenting cell",2004,"CD40",0.0321771711207427,1.09780439121757
+"blood","professional antigen presenting cell",2004,"AKR1B1",0.0805470863202354,2.74451097804391
+"blood","professional antigen presenting cell",2004,"CA2",0.0290157828251208,0.998003992015968
+"blood","professional antigen presenting cell",2004,"HIF1A",0.0825589796884447,2.69461077844311
+"blood","professional antigen presenting cell",2004,"NOS3",0,0
+"blood","professional antigen presenting cell",2004,"CXCL8",0.0852405676271848,2.69461077844311
+"blood","professional antigen presenting cell",2004,"HBB",0.0278030729533838,0.94810379241517
+"blood","professional antigen presenting cell",2004,"GATA1",0.008439594626405,0.29940119760479
+"blood","professional antigen presenting cell",2004,"ABCB1",0.0016162988252436,0.0499001996007984
+"blood","professional antigen presenting cell",2004,"NR3C1",0.101328149961827,3.44311377245509
+"blood","professional antigen presenting cell",2004,"HP",0.0220746012872476,0.748502994011976
+"blood","professional antigen presenting cell",2004,"TYR",0,0
+"blood","professional antigen presenting cell",2004,"SERPINE1",0,0
+"blood","professional antigen presenting cell",2004,"MAPK14",0.0842724522031523,2.79441117764471
+"blood","professional antigen presenting cell",2004,"TP53",0.0562519280195999,1.99600798403194
+"blood","professional antigen presenting cell",2004,"INSR",0.0191747361518795,0.648702594810379
+"blood","professional antigen presenting cell",2004,"CASP9",0.0167336726247496,0.548902195608783
+"blood","professional antigen presenting cell",2004,"PGM1",0.0316113652828881,1.04790419161677
+"blood","professional antigen presenting cell",2004,"FCER2",0.0151375909477529,0.499001996007984
+"blood","professional antigen presenting cell",2004,"VEGFD",0,0
+"blood","professional antigen presenting cell",2004,"PTGS2",0.0287351320579846,0.898203592814371
+"blood","professional antigen presenting cell",2004,"IL1B",0.0760594387985073,2.59481037924152
+"blood","professional antigen presenting cell",2004,"ATM",0.131360180445766,4.49101796407186
+"blood","professional antigen presenting cell",2004,"ESR1",0.00162340383518662,0.0499001996007984
+"blood","professional antigen presenting cell",2004,"TAC1",0,0
+"blood","professional antigen presenting cell",2004,"SNCA",0.0270862804148171,0.94810379241517
+"blood","professional antigen presenting cell",2004,"CCK",0,0
+"blood","professional antigen presenting cell",2004,"ADRB2",0.0176127628193211,0.648702594810379
+"blood","professional antigen presenting cell",2004,"VEGFA",0.0151668421000333,0.499001996007984
+"blood","professional antigen presenting cell",2004,"CDKN2A",0.00136140459875489,0.0499001996007984
+"blood","professional antigen presenting cell",2004,"TFRC",0.0217548745092582,0.698602794411178
+"blood","professional antigen presenting cell",2004,"TSHR",0,0
+"blood","professional antigen presenting cell",2004,"TIMP1",0.59084646752244,19.4111776447106
+"blood","professional antigen presenting cell",2004,"IL13",0,0
+"blood","professional antigen presenting cell",2004,"IL6",0,0
+"blood","professional antigen presenting cell",2004,"APP",0.0664441148614837,2.34530938123752
+"blood","professional antigen presenting cell",2004,"MMP9",0.00923543017024942,0.29940119760479
+"lung","B cell",345,"PTGER3",0,0
+"lung","B cell",345,"MMP2",0.0785817920480175,2.60869565217391
+"lung","B cell",345,"NR3C2",0,0
+"lung","B cell",345,"IGF1",0.0268659808550289,1.15942028985507
+"lung","B cell",345,"CYCS",0.519833501292213,18.8405797101449
+"lung","B cell",345,"HMOX1",0.0362673590020935,1.44927536231884
+"lung","B cell",345,"INS",0,0
+"lung","B cell",345,"IL2RA",0,0
+"lung","B cell",345,"TIMP3",0.241524697264902,8.69565217391304
+"lung","B cell",345,"ADRA2B",0,0
+"lung","B cell",345,"EGFR",0.0397080226799284,1.44927536231884
+"lung","B cell",345,"SOD1",0.523852517363909,19.1304347826087
+"lung","B cell",345,"IFNG",0.0336115101084074,1.15942028985507
+"lung","B cell",345,"BCL2",0.0214638622315913,0.869565217391304
+"lung","B cell",345,"TF",0,0
+"lung","B cell",345,"F7",0,0
+"lung","B cell",345,"CD40",0.0769880996454426,2.89855072463768
+"lung","B cell",345,"AKR1B1",0.112758275868309,4.34782608695652
+"lung","B cell",345,"CA2",0.00725906884985745,0.289855072463768
+"lung","B cell",345,"HIF1A",0.1228189888256,4.34782608695652
+"lung","B cell",345,"NOS3",0,0
+"lung","B cell",345,"CXCL8",0.204384462439993,6.95652173913043
+"lung","B cell",345,"HBB",0,0
+"lung","B cell",345,"GATA1",0,0
+"lung","B cell",345,"ABCB1",0,0
+"lung","B cell",345,"NR3C1",0.120687013996541,4.63768115942029
+"lung","B cell",345,"HP",0,0
+"lung","B cell",345,"TYR",0,0
+"lung","B cell",345,"SERPINE1",0.00872183925093735,0.289855072463768
+"lung","B cell",345,"MAPK14",0.0162949913241872,0.579710144927536
+"lung","B cell",345,"TP53",0.017135804061781,0.579710144927536
+"lung","B cell",345,"INSR",0.0378889240279978,1.44927536231884
+"lung","B cell",345,"CASP9",0.0152280692263154,0.579710144927536
+"lung","B cell",345,"PGM1",0.0405045862516503,1.44927536231884
+"lung","B cell",345,"FCER2",0.0258410863969126,0.869565217391304
+"lung","B cell",345,"VEGFD",0.0168170196663272,0.579710144927536
+"lung","B cell",345,"PTGS2",0.0528638387530812,2.02898550724638
+"lung","B cell",345,"IL1B",0.183866489567359,6.66666666666667
+"lung","B cell",345,"ATM",0.0407269938297789,1.44927536231884
+"lung","B cell",345,"ESR1",0,0
+"lung","B cell",345,"TAC1",0,0
+"lung","B cell",345,"SNCA",0.0164646868179364,0.579710144927536
+"lung","B cell",345,"CCK",0,0
+"lung","B cell",345,"ADRB2",0.0477943250170782,1.73913043478261
+"lung","B cell",345,"VEGFA",0.128361446523927,4.34782608695652
+"lung","B cell",345,"CDKN2A",0.0466437149605225,1.73913043478261
+"lung","B cell",345,"TFRC",0.116220592168364,4.34782608695652
+"lung","B cell",345,"TSHR",0,0
+"lung","B cell",345,"TIMP1",0.702785071783498,24.9275362318841
+"lung","B cell",345,"IL13",0,0
+"lung","B cell",345,"IL6",0.0166383431887259,0.579710144927536
+"lung","B cell",345,"APP",0.161734287005722,5.79710144927536
+"lung","B cell",345,"MMP9",0,0
+"lung","ciliated cell",80,"PTGER3",0,0
+"lung","ciliated cell",80,"MMP2",0.0653299989122179,2.5
+"lung","ciliated cell",80,"NR3C2",0,0
+"lung","ciliated cell",80,"IGF1",0,0
+"lung","ciliated cell",80,"CYCS",0.527648517935103,20
+"lung","ciliated cell",80,"HMOX1",0.0551353692162975,2.5
+"lung","ciliated cell",80,"INS",0,0
+"lung","ciliated cell",80,"IL2RA",0,0
+"lung","ciliated cell",80,"TIMP3",0.24050479141831,8.75
+"lung","ciliated cell",80,"ADRA2B",0,0
+"lung","ciliated cell",80,"EGFR",0.0373414568267332,1.25
+"lung","ciliated cell",80,"SOD1",1.20975133620097,41.25
+"lung","ciliated cell",80,"IFNG",0.0657771781645979,2.5
+"lung","ciliated cell",80,"BCL2",0,0
+"lung","ciliated cell",80,"TF",0,0
+"lung","ciliated cell",80,"F7",0,0
+"lung","ciliated cell",80,"CD40",0.0851905205860807,3.75
+"lung","ciliated cell",80,"AKR1B1",0.104827945828307,3.75
+"lung","ciliated cell",80,"CA2",0,0
+"lung","ciliated cell",80,"HIF1A",0.126036568218473,5
+"lung","ciliated cell",80,"NOS3",0,0
+"lung","ciliated cell",80,"CXCL8",0.344612454056669,12.5
+"lung","ciliated cell",80,"HBB",0.0413433112999931,1.25
+"lung","ciliated cell",80,"GATA1",0,0
+"lung","ciliated cell",80,"ABCB1",0,0
+"lung","ciliated cell",80,"NR3C1",0.0695571728469623,2.5
+"lung","ciliated cell",80,"HP",0.0340199303276246,1.25
+"lung","ciliated cell",80,"TYR",0,0
+"lung","ciliated cell",80,"SERPINE1",0,0
+"lung","ciliated cell",80,"MAPK14",0.0330370766172539,1.25
+"lung","ciliated cell",80,"TP53",0.0292495502341533,1.25
+"lung","ciliated cell",80,"INSR",0.116849583884493,5
+"lung","ciliated cell",80,"CASP9",0.0379616893488908,1.25
+"lung","ciliated cell",80,"PGM1",0.016395416974714,1.25
+"lung","ciliated cell",80,"FCER2",0,0
+"lung","ciliated cell",80,"VEGFD",0,0
+"lung","ciliated cell",80,"PTGS2",0.12807281383625,5
+"lung","ciliated cell",80,"IL1B",0.239851568175444,8.75
+"lung","ciliated cell",80,"ATM",0.0680374474529207,2.5
+"lung","ciliated cell",80,"ESR1",0,0
+"lung","ciliated cell",80,"TAC1",0,0
+"lung","ciliated cell",80,"SNCA",0,0
+"lung","ciliated cell",80,"CCK",0,0
+"lung","ciliated cell",80,"ADRB2",0.138736046830682,5
+"lung","ciliated cell",80,"VEGFA",0.125784309593626,5
+"lung","ciliated cell",80,"CDKN2A",0,0
+"lung","ciliated cell",80,"TFRC",0.149449705329544,6.25
+"lung","ciliated cell",80,"TSHR",0,0
+"lung","ciliated cell",80,"TIMP1",0.328080880612336,12.5
+"lung","ciliated cell",80,"IL13",0,0
+"lung","ciliated cell",80,"IL6",0.0311003633680378,1.25
+"lung","ciliated cell",80,"APP",0.707804988883094,26.25
+"lung","ciliated cell",80,"MMP9",0,0
+"lung","cycling cell",2378,"PTGER3",0.00213970795134233,0.0841042893187553
+"lung","cycling cell",2378,"MMP2",0.332400903868785,11.354079058032
+"lung","cycling cell",2378,"NR3C2",0.00464634001667965,0.168208578637511
+"lung","cycling cell",2378,"IGF1",0.0844603374132712,2.98570227081581
+"lung","cycling cell",2378,"CYCS",0.473618535487608,16.3162321278385
+"lung","cycling cell",2378,"HMOX1",0.00706131048836664,0.252312867956266
+"lung","cycling cell",2378,"INS",0,0
+"lung","cycling cell",2378,"IL2RA",0.00126923453150724,0.0420521446593776
+"lung","cycling cell",2378,"TIMP3",0.137767920072379,4.83599663582843
+"lung","cycling cell",2378,"ADRA2B",0,0
+"lung","cycling cell",2378,"EGFR",0.106103727081172,3.74264087468461
+"lung","cycling cell",2378,"SOD1",0.859344108242486,28.511354079058
+"lung","cycling cell",2378,"IFNG",0.0131956106995614,0.462573591253154
+"lung","cycling cell",2378,"BCL2",0.0174653149656269,0.588730025231287
+"lung","cycling cell",2378,"TF",0.000926380900365263,0.0420521446593776
+"lung","cycling cell",2378,"F7",0,0
+"lung","cycling cell",2378,"CD40",0.00687050441563152,0.252312867956266
+"lung","cycling cell",2378,"AKR1B1",0.170469418114219,5.97140454163162
+"lung","cycling cell",2378,"CA2",0.0453889103335482,1.64003364171573
+"lung","cycling cell",2378,"HIF1A",0.145236828467805,5.13036164844407
+"lung","cycling cell",2378,"NOS3",0.00898534248843471,0.336417157275021
+"lung","cycling cell",2378,"CXCL8",0.0208831981962653,0.630782169890664
+"lung","cycling cell",2378,"HBB",0.0447768369492794,1.51387720773759
+"lung","cycling cell",2378,"GATA1",0.00259250760418853,0.0841042893187553
+"lung","cycling cell",2378,"ABCB1",0.00109546156994467,0.0420521446593776
+"lung","cycling cell",2378,"NR3C1",0.0983218605188503,3.36417157275021
+"lung","cycling cell",2378,"HP",0.00362664643159157,0.126156433978133
+"lung","cycling cell",2378,"TYR",0,0
+"lung","cycling cell",2378,"SERPINE1",0.0063807014241789,0.252312867956266
+"lung","cycling cell",2378,"MAPK14",0.0425568664745265,1.51387720773759
+"lung","cycling cell",2378,"TP53",0.0829185477063643,2.85954583683768
+"lung","cycling cell",2378,"INSR",0.0382402520479891,1.30361648444071
+"lung","cycling cell",2378,"CASP9",0.006134669237408,0.210260723296888
+"lung","cycling cell",2378,"PGM1",0.0825605650165383,2.98570227081581
+"lung","cycling cell",2378,"FCER2",0,0
+"lung","cycling cell",2378,"VEGFD",0.0382593865952237,1.30361648444071
+"lung","cycling cell",2378,"PTGS2",0.0278043193387297,1.00925147182506
+"lung","cycling cell",2378,"IL1B",0.0131815042775628,0.462573591253154
+"lung","cycling cell",2378,"ATM",0.0544701742913724,1.89234650967199
+"lung","cycling cell",2378,"ESR1",0,0
+"lung","cycling cell",2378,"TAC1",0,0
+"lung","cycling cell",2378,"SNCA",0.130678951552017,4.54163162321278
+"lung","cycling cell",2378,"CCK",0,0
+"lung","cycling cell",2378,"ADRB2",0.0220673780122909,0.841042893187553
+"lung","cycling cell",2378,"VEGFA",0.16228985358122,5.76114381833474
+"lung","cycling cell",2378,"CDKN2A",0.00367352469730066,0.168208578637511
+"lung","cycling cell",2378,"TFRC",0.0400220081915066,1.51387720773759
+"lung","cycling cell",2378,"TSHR",0,0
+"lung","cycling cell",2378,"TIMP1",0.484211698611797,16.1900756938604
+"lung","cycling cell",2378,"IL13",0,0
+"lung","cycling cell",2378,"IL6",0.00798618345311874,0.294365012615643
+"lung","cycling cell",2378,"APP",0.29191334233689,10.13456686291
+"lung","cycling cell",2378,"MMP9",0.0011450472931765,0.0420521446593776
+"lung","endothelial cell",4073,"PTGER3",0.00284034356799539,0.0982077093051805
+"lung","endothelial cell",4073,"MMP2",0.18888186339049,6.48170881414191
+"lung","endothelial cell",4073,"NR3C2",0.0501868137665869,1.74318684016695
+"lung","endothelial cell",4073,"IGF1",0.0263319046166764,0.883869383746624
+"lung","endothelial cell",4073,"CYCS",0.32817707086923,11.318438497422
+"lung","endothelial cell",4073,"HMOX1",0.0348477795720772,1.20304443898846
+"lung","endothelial cell",4073,"INS",0,0
+"lung","endothelial cell",4073,"IL2RA",0.000831526797007134,0.0245519273262951
+"lung","endothelial cell",4073,"TIMP3",1.32970422385595,40.265160815124
+"lung","endothelial cell",4073,"ADRA2B",0.000669183547015078,0.0245519273262951
+"lung","endothelial cell",4073,"EGFR",0.068304508338412,2.38153695065063
+"lung","endothelial cell",4073,"SOD1",0.504800728041476,17.1863491284066
+"lung","endothelial cell",4073,"IFNG",0.0327062029819705,1.08028480235698
+"lung","endothelial cell",4073,"BCL2",0.0169149092427745,0.638350110483673
+"lung","endothelial cell",4073,"TF",0.00253576737893504,0.0982077093051805
+"lung","endothelial cell",4073,"F7",0,0
+"lung","endothelial cell",4073,"CD40",0.146484039446774,5.08224895654309
+"lung","endothelial cell",4073,"AKR1B1",0.132053037660127,4.56665848269089
+"lung","endothelial cell",4073,"CA2",0.087409545585322,3.09354284311318
+"lung","endothelial cell",4073,"HIF1A",0.425183350575548,14.4119813405352
+"lung","endothelial cell",4073,"NOS3",0.0617833279874674,2.20967345936656
+"lung","endothelial cell",4073,"CXCL8",0.200917426381163,6.48170881414191
+"lung","endothelial cell",4073,"HBB",0.0422869576385279,1.30125214829364
+"lung","endothelial cell",4073,"GATA1",0.00299666965845964,0.0982077093051805
+"lung","endothelial cell",4073,"ABCB1",0.0623989164706009,2.16056960471397
+"lung","endothelial cell",4073,"NR3C1",0.212722535604498,7.26737048858335
+"lung","endothelial cell",4073,"HP",0.0274953292305029,0.932973238399214
+"lung","endothelial cell",4073,"TYR",0,0
+"lung","endothelial cell",4073,"SERPINE1",0.0845767996925809,2.87257549717653
+"lung","endothelial cell",4073,"MAPK14",0.0759606208519071,2.65160815123987
+"lung","endothelial cell",4073,"TP53",0.0770541699948066,2.77436778787135
+"lung","endothelial cell",4073,"INSR",0.052024134472856,1.84139454947213
+"lung","endothelial cell",4073,"CASP9",0.015320579153451,0.515590473852197
+"lung","endothelial cell",4073,"PGM1",0.0250037116706503,0.883869383746624
+"lung","endothelial cell",4073,"FCER2",0.00143065194854775,0.0491038546525902
+"lung","endothelial cell",4073,"VEGFD",0.0369426413175058,1.25214829364105
+"lung","endothelial cell",4073,"PTGS2",0.132687955197808,4.46845077338571
+"lung","endothelial cell",4073,"IL1B",0.187880784241575,6.28529339553155
+"lung","endothelial cell",4073,"ATM",0.0631515251789087,2.20967345936656
+"lung","endothelial cell",4073,"ESR1",0.00145674579417697,0.0491038546525902
+"lung","endothelial cell",4073,"TAC1",0,0
+"lung","endothelial cell",4073,"SNCA",0.0479563535486578,1.79229069481954
+"lung","endothelial cell",4073,"CCK",0.000794674917621573,0.0245519273262951
+"lung","endothelial cell",4073,"ADRB2",0.103723391633373,3.5354775349865
+"lung","endothelial cell",4073,"VEGFA",0.096130918145107,3.33906211637614
+"lung","endothelial cell",4073,"CDKN2A",0.00352066198898009,0.122759636631476
+"lung","endothelial cell",4073,"TFRC",0.130345349487186,4.44389884605942
+"lung","endothelial cell",4073,"TSHR",0,0
+"lung","endothelial cell",4073,"TIMP1",1.13448675150012,35.6248465504542
+"lung","endothelial cell",4073,"IL13",0,0
+"lung","endothelial cell",4073,"IL6",0.194564841785136,5.89246255831083
+"lung","endothelial cell",4073,"APP",1.17387726736385,37.9818315737785
+"lung","endothelial cell",4073,"MMP9",0.00355032482392,0.122759636631476
+"lung","epithelial cell",2171,"PTGER3",0.00403901381582664,0.138185168125288
+"lung","epithelial cell",2171,"MMP2",0.0779931108159248,3.04007369875633
+"lung","epithelial cell",2171,"NR3C2",0.0408153622139302,1.65822201750345
+"lung","epithelial cell",2171,"IGF1",0.0220876611038777,0.829111008751727
+"lung","epithelial cell",2171,"CYCS",0.526403876488252,18.8392445877476
+"lung","epithelial cell",2171,"HMOX1",0.00772554364131718,0.276370336250576
+"lung","epithelial cell",2171,"INS",0,0
+"lung","epithelial cell",2171,"IL2RA",0.00127559353250264,0.0460617227084293
+"lung","epithelial cell",2171,"TIMP3",0.213506274403883,7.13956701980654
+"lung","epithelial cell",2171,"ADRA2B",0,0
+"lung","epithelial cell",2171,"EGFR",0.109889827183967,4.05343159834178
+"lung","epithelial cell",2171,"SOD1",0.681618027611741,24.0442192538001
+"lung","epithelial cell",2171,"IFNG",0.0130960747960424,0.460617227084293
+"lung","epithelial cell",2171,"BCL2",0.0205319748966952,0.736987563334869
+"lung","epithelial cell",2171,"TF",0.0189810702623432,0.783049286043298
+"lung","epithelial cell",2171,"F7",0,0
+"lung","epithelial cell",2171,"CD40",0.0303147468383968,1.05941962229387
+"lung","epithelial cell",2171,"AKR1B1",0.161630727779699,6.21833256563795
+"lung","epithelial cell",2171,"CA2",0.192366099170296,7.09350529709811
+"lung","epithelial cell",2171,"HIF1A",0.240064693148411,8.75172731460157
+"lung","epithelial cell",2171,"NOS3",0.00391694045714264,0.138185168125288
+"lung","epithelial cell",2171,"CXCL8",0.714842900101618,16.7204053431598
+"lung","epithelial cell",2171,"HBB",0.0426608082311357,1.52003684937817
+"lung","epithelial cell",2171,"GATA1",0.00147391657196803,0.0460617227084293
+"lung","epithelial cell",2171,"ABCB1",0.00420571098356802,0.138185168125288
+"lung","epithelial cell",2171,"NR3C1",0.0942965487221333,3.36250575771534
+"lung","epithelial cell",2171,"HP",0.0143764594288198,0.368493781667434
+"lung","epithelial cell",2171,"TYR",0,0
+"lung","epithelial cell",2171,"SERPINE1",0.0158028889340126,0.552740672501152
+"lung","epithelial cell",2171,"MAPK14",0.0881951445780314,3.27038231229848
+"lung","epithelial cell",2171,"TP53",0.0880027240504715,3.17825886688162
+"lung","epithelial cell",2171,"INSR",0.0826585912070515,3.22432058959005
+"lung","epithelial cell",2171,"CASP9",0.0317193084891962,1.24366651312759
+"lung","epithelial cell",2171,"PGM1",0.0702621802780088,2.57945647167204
+"lung","epithelial cell",2171,"FCER2",0,0
+"lung","epithelial cell",2171,"VEGFD",0.0287616612640551,1.01335789958544
+"lung","epithelial cell",2171,"PTGS2",0.12271266978592,4.09949332105021
+"lung","epithelial cell",2171,"IL1B",0.0666138675994125,2.30308613542146
+"lung","epithelial cell",2171,"ATM",0.0585278902255576,2.11883924458775
+"lung","epithelial cell",2171,"ESR1",0,0
+"lung","epithelial cell",2171,"TAC1",0.00140323776958241,0.0460617227084293
+"lung","epithelial cell",2171,"SNCA",0.0290262155515089,1.05941962229387
+"lung","epithelial cell",2171,"CCK",0,0
+"lung","epithelial cell",2171,"ADRB2",0.101116229859881,3.54675264854906
+"lung","epithelial cell",2171,"VEGFA",0.312710263233529,11.3311837862736
+"lung","epithelial cell",2171,"CDKN2A",0.00149742650535431,0.0460617227084293
+"lung","epithelial cell",2171,"TFRC",0.114418161311403,4.23767848917549
+"lung","epithelial cell",2171,"TSHR",0,0
+"lung","epithelial cell",2171,"TIMP1",0.312241579392074,10.6863196683556
+"lung","epithelial cell",2171,"IL13",0,0
+"lung","epithelial cell",2171,"IL6",0.0567270050552466,1.79640718562874
+"lung","epithelial cell",2171,"APP",0.589382001910015,21.1883924458775
+"lung","epithelial cell",2171,"MMP9",0.00236450371251801,0.0921234454168586
+"lung","fibroblast",6323,"PTGER3",0.00663852633400333,0.221413885813696
+"lung","fibroblast",6323,"MMP2",0.679204519973968,21.2082872054405
+"lung","fibroblast",6323,"NR3C2",0.00805809765701294,0.26885971848806
+"lung","fibroblast",6323,"IGF1",0.104729309892496,3.38446939743793
+"lung","fibroblast",6323,"CYCS",0.279205289389911,9.03052348568717
+"lung","fibroblast",6323,"HMOX1",0.0141588063557908,0.474458326743634
+"lung","fibroblast",6323,"INS",0,0
+"lung","fibroblast",6323,"IL2RA",0,0
+"lung","fibroblast",6323,"TIMP3",0.469798549414945,14.2653803574253
+"lung","fibroblast",6323,"ADRA2B",0.00105212095749668,0.0316305551162423
+"lung","fibroblast",6323,"EGFR",0.0931839774549392,3.02071801360114
+"lung","fibroblast",6323,"SOD1",0.752855613291014,23.4698718962518
+"lung","fibroblast",6323,"IFNG",0.0057209280558098,0.205598608255575
+"lung","fibroblast",6323,"BCL2",0.0191279473063519,0.616795824766725
+"lung","fibroblast",6323,"TF",0.00203561862313091,0.0632611102324846
+"lung","fibroblast",6323,"F7",0,0
+"lung","fibroblast",6323,"CD40",0.0260930203690258,0.885655543254784
+"lung","fibroblast",6323,"AKR1B1",0.14896233834569,4.83947493278507
+"lung","fibroblast",6323,"CA2",0.0364022938076575,1.20196109441721
+"lung","fibroblast",6323,"HIF1A",0.147670709635712,4.80784437766883
+"lung","fibroblast",6323,"NOS3",0.00995955610166378,0.316305551162423
+"lung","fibroblast",6323,"CXCL8",0.0456799046842567,1.43919025778902
+"lung","fibroblast",6323,"HBB",0.0565833295299496,1.7238652538352
+"lung","fibroblast",6323,"GATA1",0.00101819995226838,0.0316305551162423
+"lung","fibroblast",6323,"ABCB1",0.00363690091151803,0.126522220464969
+"lung","fibroblast",6323,"NR3C1",0.0975069539979921,3.21050134429859
+"lung","fibroblast",6323,"HP",0.0526163728447529,1.28103748220781
+"lung","fibroblast",6323,"TYR",0,0
+"lung","fibroblast",6323,"SERPINE1",0.0546167420556683,1.78712636406769
+"lung","fibroblast",6323,"MAPK14",0.0460162209122296,1.48663609046339
+"lung","fibroblast",6323,"TP53",0.0655094271034185,2.13506247034635
+"lung","fibroblast",6323,"INSR",0.0394176207306993,1.26522220464969
+"lung","fibroblast",6323,"CASP9",0.0144551681842705,0.474458326743634
+"lung","fibroblast",6323,"PGM1",0.0592426761468059,1.97690969476514
+"lung","fibroblast",6323,"FCER2",0,0
+"lung","fibroblast",6323,"VEGFD",0.17474052755984,5.59860825557489
+"lung","fibroblast",6323,"PTGS2",0.0846844479366,2.78348885022932
+"lung","fibroblast",6323,"IL1B",0.0595420761527908,1.97690969476514
+"lung","fibroblast",6323,"ATM",0.0588532603030577,1.92946386209078
+"lung","fibroblast",6323,"ESR1",0.000487654254938019,0.0158152775581211
+"lung","fibroblast",6323,"TAC1",0.00153674547277371,0.0474458326743634
+"lung","fibroblast",6323,"SNCA",0.109788379212954,3.51099161790289
+"lung","fibroblast",6323,"CCK",0.000918041432228272,0.0316305551162423
+"lung","fibroblast",6323,"ADRB2",0.0139614050542886,0.474458326743634
+"lung","fibroblast",6323,"VEGFA",0.164820675697684,5.25067214929622
+"lung","fibroblast",6323,"CDKN2A",0.00263576279897729,0.0948916653487269
+"lung","fibroblast",6323,"TFRC",0.0649530270255207,2.18250830302072
+"lung","fibroblast",6323,"TSHR",0,0
+"lung","fibroblast",6323,"TIMP1",0.925252401493388,25.7630871421793
+"lung","fibroblast",6323,"IL13",0,0
+"lung","fibroblast",6323,"IL6",0.0344613141859629,1.10706942906848
+"lung","fibroblast",6323,"APP",0.377765783181144,12.2093942748695
+"lung","fibroblast",6323,"MMP9",0.00207105801460686,0.0632611102324846
+"lung","macrophage",5183,"PTGER3",0.00547096491429486,0.250819988423693
+"lung","macrophage",5183,"MMP2",0.0253875637733366,0.98398610843141
+"lung","macrophage",5183,"NR3C2",0.00909282704812325,0.424464595793942
+"lung","macrophage",5183,"IGF1",0.0275081734998161,1.33127532317191
+"lung","macrophage",5183,"CYCS",0.89726486787016,38.0281690140845
+"lung","macrophage",5183,"HMOX1",0.461642872612931,20.5286513602161
+"lung","macrophage",5183,"INS",0,0
+"lung","macrophage",5183,"IL2RA",0.00121391949500782,0.057881535790083
+"lung","macrophage",5183,"TIMP3",0.0759486488720643,2.93266448003087
+"lung","macrophage",5183,"ADRA2B",0.00322093876399418,0.154350762106888
+"lung","macrophage",5183,"EGFR",0.00512647726284074,0.231526143160332
+"lung","macrophage",5183,"SOD1",0.916613341447564,38.7227474435655
+"lung","macrophage",5183,"IFNG",0.0370102655483552,1.63997684738568
+"lung","macrophage",5183,"BCL2",0.00676681675411459,0.308701524213776
+"lung","macrophage",5183,"TF",0,0
+"lung","macrophage",5183,"F7",0,0
+"lung","macrophage",5183,"CD40",0.181269379831543,8.85587497588269
+"lung","macrophage",5183,"AKR1B1",0.533389349010669,23.9629558170943
+"lung","macrophage",5183,"CA2",0.168663438700472,7.4667181169207
+"lung","macrophage",5183,"HIF1A",0.147734362285603,6.65637661585954
+"lung","macrophage",5183,"NOS3",0.00575952757904567,0.270113833687054
+"lung","macrophage",5183,"CXCL8",0.944076320458146,32.2014277445495
+"lung","macrophage",5183,"HBB",0.00790425847936145,0.308701524213776
+"lung","macrophage",5183,"GATA1",0,0
+"lung","macrophage",5183,"ABCB1",0.000754785490907892,0.038587690526722
+"lung","macrophage",5183,"NR3C1",0.189642224051057,8.75940574956589
+"lung","macrophage",5183,"HP",0.121103293730531,5.34439513795099
+"lung","macrophage",5183,"TYR",0,0
+"lung","macrophage",5183,"SERPINE1",0.0262751933237574,1.27339378738183
+"lung","macrophage",5183,"MAPK14",0.0825181431575796,3.91665058846228
+"lung","macrophage",5183,"TP53",0.0338709804268551,1.69785838317577
+"lung","macrophage",5183,"INSR",0.0241429191496045,1.11904302527494
+"lung","macrophage",5183,"CASP9",0.0578470014148196,2.85548909897743
+"lung","macrophage",5183,"PGM1",0.156188172128481,7.50530580744742
+"lung","macrophage",5183,"FCER2",0.00108239371267845,0.038587690526722
+"lung","macrophage",5183,"VEGFD",0.00516845199043368,0.231526143160332
+"lung","macrophage",5183,"PTGS2",0.100248048126308,4.59193517267992
+"lung","macrophage",5183,"IL1B",0.419701153116523,16.3225930928034
+"lung","macrophage",5183,"ATM",0.0936835230957078,4.37970287478294
+"lung","macrophage",5183,"ESR1",0.00839428271628468,0.38587690526722
+"lung","macrophage",5183,"TAC1",0,0
+"lung","macrophage",5183,"SNCA",0.00934551868944088,0.405170750530581
+"lung","macrophage",5183,"CCK",0,0
+"lung","macrophage",5183,"ADRB2",0.0433100321444582,1.98726606212618
+"lung","macrophage",5183,"VEGFA",0.0861554505328194,4.05170750530581
+"lung","macrophage",5183,"CDKN2A",0.0141813231332844,0.675284584217635
+"lung","macrophage",5183,"TFRC",1.35341632373715,50.8778699594829
+"lung","macrophage",5183,"TSHR",0,0
+"lung","macrophage",5183,"TIMP1",0.763888289811608,32.1049585182327
+"lung","macrophage",5183,"IL13",0,0
+"lung","macrophage",5183,"IL6",0.121226773377043,5.36368898321436
+"lung","macrophage",5183,"APP",0.310117569391647,14.219563959097
+"lung","macrophage",5183,"MMP9",0.00229358461065998,0.0964692263168049
+"lung","mast cell",829,"PTGER3",0.0208030854788754,0.723763570566948
+"lung","mast cell",829,"MMP2",0.0839621453634297,2.65379975874548
+"lung","mast cell",829,"NR3C2",0.022089759946798,0.723763570566948
+"lung","mast cell",829,"IGF1",0.00542786883735802,0.241254523522316
+"lung","mast cell",829,"CYCS",0.862103632116134,28.226779252111
+"lung","mast cell",829,"HMOX1",0.0765596916382996,2.89505428226779
+"lung","mast cell",829,"INS",0,0
+"lung","mast cell",829,"IL2RA",0.0184787891202975,0.60313630880579
+"lung","mast cell",829,"TIMP3",0.423550552863396,13.5102533172497
+"lung","mast cell",829,"ADRA2B",0,0
+"lung","mast cell",829,"EGFR",0.0423231120358352,1.56815440289505
+"lung","mast cell",829,"SOD1",0.523101415171304,17.8528347406514
+"lung","mast cell",829,"IFNG",0.0797745475184464,2.291917973462
+"lung","mast cell",829,"BCL2",0.0584331239999817,1.93003618817853
+"lung","mast cell",829,"TF",0,0
+"lung","mast cell",829,"F7",0,0
+"lung","mast cell",829,"CD40",0.0554925205118273,2.05066344993969
+"lung","mast cell",829,"AKR1B1",0.15997019508639,5.79010856453559
+"lung","mast cell",829,"CA2",0.0640221292913952,2.17129071170084
+"lung","mast cell",829,"HIF1A",0.572860128046934,18.6972255729795
+"lung","mast cell",829,"NOS3",0.0115616867887155,0.361881785283474
+"lung","mast cell",829,"CXCL8",0.3844402913372,11.8214716525935
+"lung","mast cell",829,"HBB",0.0239964569924298,0.723763570566948
+"lung","mast cell",829,"GATA1",0.083863931587208,2.89505428226779
+"lung","mast cell",829,"ABCB1",0.0409849831690681,1.32689987937274
+"lung","mast cell",829,"NR3C1",0.166810778057068,5.79010856453559
+"lung","mast cell",829,"HP",0.0269006982668911,0.965018094089264
+"lung","mast cell",829,"TYR",0,0
+"lung","mast cell",829,"SERPINE1",0.0211272749830203,0.723763570566948
+"lung","mast cell",829,"MAPK14",0.027596437080261,0.965018094089264
+"lung","mast cell",829,"TP53",0.0316735114276244,1.08564535585042
+"lung","mast cell",829,"INSR",0.0123442752664416,0.482509047044632
+"lung","mast cell",829,"CASP9",0.0215116839165198,0.723763570566948
+"lung","mast cell",829,"PGM1",0.0506819295746286,1.80940892641737
+"lung","mast cell",829,"FCER2",0,0
+"lung","mast cell",829,"VEGFD",0.0110410841753556,0.361881785283474
+"lung","mast cell",829,"PTGS2",1.64808056556859,47.1652593486128
+"lung","mast cell",829,"IL1B",0.284571939584688,9.04704463208685
+"lung","mast cell",829,"ATM",0.0625013579702443,2.291917973462
+"lung","mast cell",829,"ESR1",0,0
+"lung","mast cell",829,"TAC1",0,0
+"lung","mast cell",829,"SNCA",0.0113672439541947,0.361881785283474
+"lung","mast cell",829,"CCK",0,0
+"lung","mast cell",829,"ADRB2",0.266429183370297,8.80579010856454
+"lung","mast cell",829,"VEGFA",0.662538164762448,20.9891435464415
+"lung","mast cell",829,"CDKN2A",0.0389877672258801,1.32689987937274
+"lung","mast cell",829,"TFRC",0.302305661102456,10.3739445114596
+"lung","mast cell",829,"TSHR",0,0
+"lung","mast cell",829,"TIMP1",1.10933529217042,34.9819059107358
+"lung","mast cell",829,"IL13",0.030663664694498,0.965018094089264
+"lung","mast cell",829,"IL6",0.0334518559933043,1.20627261761158
+"lung","mast cell",829,"APP",0.238852348780588,8.3232810615199
+"lung","mast cell",829,"MMP9",0.00336447443775328,0.120627261761158
+"lung","monocyte",2860,"PTGER3",0.00809789413366423,0.27972027972028
+"lung","monocyte",2860,"MMP2",0.0764521638890327,2.58741258741259
+"lung","monocyte",2860,"NR3C2",0.00722539423874243,0.244755244755245
+"lung","monocyte",2860,"IGF1",0.00883905308664194,0.314685314685315
+"lung","monocyte",2860,"CYCS",0.86911044932713,28.6363636363636
+"lung","monocyte",2860,"HMOX1",0.211886760072988,7.30769230769231
+"lung","monocyte",2860,"INS",0,0
+"lung","monocyte",2860,"IL2RA",0.0109977566306283,0.384615384615385
+"lung","monocyte",2860,"TIMP3",0.276864606424301,8.88111888111888
+"lung","monocyte",2860,"ADRA2B",0.00958321604717396,0.34965034965035
+"lung","monocyte",2860,"EGFR",0.0219709447091879,0.769230769230769
+"lung","monocyte",2860,"SOD1",0.421999643751998,14.8601398601399
+"lung","monocyte",2860,"IFNG",0.030673777199942,1.04895104895105
+"lung","monocyte",2860,"BCL2",0.0384467653519956,1.36363636363636
+"lung","monocyte",2860,"TF",0.000991161015156219,0.034965034965035
+"lung","monocyte",2860,"F7",0,0
+"lung","monocyte",2860,"CD40",0.180671874929469,6.3986013986014
+"lung","monocyte",2860,"AKR1B1",0.230866055749346,8.39160839160839
+"lung","monocyte",2860,"CA2",0.0858753831732608,3.00699300699301
+"lung","monocyte",2860,"HIF1A",0.409457898982978,14.1958041958042
+"lung","monocyte",2860,"NOS3",0.00864210046138214,0.27972027972028
+"lung","monocyte",2860,"CXCL8",3.45050063572401,73.4615384615385
+"lung","monocyte",2860,"HBB",0.0229184561685087,0.734265734265734
+"lung","monocyte",2860,"GATA1",0.00132544052285215,0.034965034965035
+"lung","monocyte",2860,"ABCB1",0.00839460125365387,0.314685314685315
+"lung","monocyte",2860,"NR3C1",0.125016751789957,4.40559440559441
+"lung","monocyte",2860,"HP",0.0209091944411082,0.699300699300699
+"lung","monocyte",2860,"TYR",0,0
+"lung","monocyte",2860,"SERPINE1",0.0256811855508174,0.944055944055944
+"lung","monocyte",2860,"MAPK14",0.042307655872489,1.5034965034965
+"lung","monocyte",2860,"TP53",0.0327582290035355,1.15384615384615
+"lung","monocyte",2860,"INSR",0.0346363992524679,1.18881118881119
+"lung","monocyte",2860,"CASP9",0.0285486779679311,1.04895104895105
+"lung","monocyte",2860,"PGM1",0.042232410764165,1.53846153846154
+"lung","monocyte",2860,"FCER2",0.00608182307152797,0.20979020979021
+"lung","monocyte",2860,"VEGFD",0.0195031675367887,0.664335664335664
+"lung","monocyte",2860,"PTGS2",0.656950754972315,21.048951048951
+"lung","monocyte",2860,"IL1B",2.51265794328769,60.2797202797203
+"lung","monocyte",2860,"ATM",0.0643891668767015,2.23776223776224
+"lung","monocyte",2860,"ESR1",0.000583185203108194,0.034965034965035
+"lung","monocyte",2860,"TAC1",0,0
+"lung","monocyte",2860,"SNCA",0.0447866318225763,1.67832167832168
+"lung","monocyte",2860,"CCK",0,0
+"lung","monocyte",2860,"ADRB2",0.0609177270190791,2.0979020979021
+"lung","monocyte",2860,"VEGFA",0.322281031226744,10.8741258741259
+"lung","monocyte",2860,"CDKN2A",0.00324810987899606,0.104895104895105
+"lung","monocyte",2860,"TFRC",0.402841325918754,13.8111888111888
+"lung","monocyte",2860,"TSHR",0,0
+"lung","monocyte",2860,"TIMP1",1.7247724803203,48.7762237762238
+"lung","monocyte",2860,"IL13",0,0
+"lung","monocyte",2860,"IL6",0.184838984640479,6.15384615384615
+"lung","monocyte",2860,"APP",0.21759811394608,7.55244755244755
+"lung","monocyte",2860,"MMP9",0.0954125208706263,3.32167832167832
+"lung","pneumocyte",6521,"PTGER3",0.00142222267083291,0.0460052139242447
+"lung","pneumocyte",6521,"MMP2",0.090348864397149,3.17435976077289
+"lung","pneumocyte",6521,"NR3C2",0.0435287604265878,1.62551755865665
+"lung","pneumocyte",6521,"IGF1",0.00476606610427984,0.168685784388897
+"lung","pneumocyte",6521,"CYCS",0.317235947375227,11.3786229105965
+"lung","pneumocyte",6521,"HMOX1",0.0912191174894577,3.41972090170219
+"lung","pneumocyte",6521,"INS",0,0
+"lung","pneumocyte",6521,"IL2RA",0.00120551232740176,0.0460052139242447
+"lung","pneumocyte",6521,"TIMP3",0.359565453470684,12.2373869038491
+"lung","pneumocyte",6521,"ADRA2B",0,0
+"lung","pneumocyte",6521,"EGFR",0.217861580152063,7.86689158104585
+"lung","pneumocyte",6521,"SOD1",0.346395238170519,12.4980831160865
+"lung","pneumocyte",6521,"IFNG",0.0278579330919134,0.996779635025303
+"lung","pneumocyte",6521,"BCL2",0.00497749326181332,0.184020855696979
+"lung","pneumocyte",6521,"TF",0.0007314858871886,0.0306701426161632
+"lung","pneumocyte",6521,"F7",0,0
+"lung","pneumocyte",6521,"CD40",0.0631731862065814,2.31559576752032
+"lung","pneumocyte",6521,"AKR1B1",0.04526852710593,1.62551755865665
+"lung","pneumocyte",6521,"CA2",0.347348316885013,12.4214077595461
+"lung","pneumocyte",6521,"HIF1A",0.277415156180204,10.1211470633338
+"lung","pneumocyte",6521,"NOS3",0.00812465033522846,0.29136635485355
+"lung","pneumocyte",6521,"CXCL8",0.161843956574074,5.59730102744978
+"lung","pneumocyte",6521,"HBB",0.0196323227678269,0.67474313755559
+"lung","pneumocyte",6521,"GATA1",0.000898890814829146,0.0306701426161632
+"lung","pneumocyte",6521,"ABCB1",0.00492724891171062,0.168685784388897
+"lung","pneumocyte",6521,"NR3C1",0.153458020389188,5.56663088483361
+"lung","pneumocyte",6521,"HP",0.0809455092433015,2.82165312068701
+"lung","pneumocyte",6521,"TYR",0,0
+"lung","pneumocyte",6521,"SERPINE1",0.0176944322622263,0.613402852323263
+"lung","pneumocyte",6521,"MAPK14",0.07585816707319,2.79098297807085
+"lung","pneumocyte",6521,"TP53",0.0527687225488069,1.96288912743444
+"lung","pneumocyte",6521,"INSR",0.0837641923691658,3.05167919030823
+"lung","pneumocyte",6521,"CASP9",0.0221283251907255,0.797423708020242
+"lung","pneumocyte",6521,"PGM1",0.108068181650027,3.98711854010121
+"lung","pneumocyte",6521,"FCER2",0.00118088575792977,0.0460052139242447
+"lung","pneumocyte",6521,"VEGFD",0.0219352568756553,0.766753565404079
+"lung","pneumocyte",6521,"PTGS2",0.18281288424249,6.2413740223892
+"lung","pneumocyte",6521,"IL1B",0.140611830698904,4.95322803251035
+"lung","pneumocyte",6521,"ATM",0.0519130033561672,1.90154884220212
+"lung","pneumocyte",6521,"ESR1",0.00104782654386398,0.0460052139242447
+"lung","pneumocyte",6521,"TAC1",0,0
+"lung","pneumocyte",6521,"SNCA",0.00870850704550004,0.306701426161632
+"lung","pneumocyte",6521,"CCK",0,0
+"lung","pneumocyte",6521,"ADRB2",0.0942741352594972,3.46572611562644
+"lung","pneumocyte",6521,"VEGFA",0.237414514380142,8.4956295046772
+"lung","pneumocyte",6521,"CDKN2A",0.00240786666774656,0.0920104278484895
+"lung","pneumocyte",6521,"TFRC",0.250697267647024,9.04769207176813
+"lung","pneumocyte",6521,"TSHR",0,0
+"lung","pneumocyte",6521,"TIMP1",0.355377339422954,12.3447324030057
+"lung","pneumocyte",6521,"IL13",0.000373858366654262,0.0153350713080816
+"lung","pneumocyte",6521,"IL6",0.0289267447966103,1.02744977764147
+"lung","pneumocyte",6521,"APP",0.396862206466339,13.9702499616623
+"lung","pneumocyte",6521,"MMP9",0.00136165647898662,0.0460052139242447
+"lung","smooth muscle cell",1291,"PTGER3",0.00942714995819318,0.309837335398916
+"lung","smooth muscle cell",1291,"MMP2",0.298743245756013,9.75987606506584
+"lung","smooth muscle cell",1291,"NR3C2",0.00697943001493891,0.232378001549187
+"lung","smooth muscle cell",1291,"IGF1",0.33076103430419,10.3795507358637
+"lung","smooth muscle cell",1291,"CYCS",0.425962713942683,14.0975987606507
+"lung","smooth muscle cell",1291,"HMOX1",0.0137820137926452,0.464756003098373
+"lung","smooth muscle cell",1291,"INS",0,0
+"lung","smooth muscle cell",1291,"IL2RA",0,0
+"lung","smooth muscle cell",1291,"TIMP3",0.736682818649242,22.6955848179706
+"lung","smooth muscle cell",1291,"ADRA2B",0,0
+"lung","smooth muscle cell",1291,"EGFR",0.0617201722875075,2.09140201394268
+"lung","smooth muscle cell",1291,"SOD1",0.810237197099825,25.7939581719597
+"lung","smooth muscle cell",1291,"IFNG",0.0300532424947403,1.00697134004648
+"lung","smooth muscle cell",1291,"BCL2",0.0237811496242831,0.774593338497289
+"lung","smooth muscle cell",1291,"TF",0.00261068211465484,0.0774593338497289
+"lung","smooth muscle cell",1291,"F7",0,0
+"lung","smooth muscle cell",1291,"CD40",0.0395445961695153,1.39426800929512
+"lung","smooth muscle cell",1291,"AKR1B1",0.113620087774188,3.79550735863672
+"lung","smooth muscle cell",1291,"CA2",0.0596726798606098,2.01394268009295
+"lung","smooth muscle cell",1291,"HIF1A",0.200337759290471,6.73896204492641
+"lung","smooth muscle cell",1291,"NOS3",0.0145517686129805,0.464756003098373
+"lung","smooth muscle cell",1291,"CXCL8",0.0948472226760752,2.9434546862897
+"lung","smooth muscle cell",1291,"HBB",0.0427970897088796,1.39426800929512
+"lung","smooth muscle cell",1291,"GATA1",0,0
+"lung","smooth muscle cell",1291,"ABCB1",0.00397445896047219,0.154918667699458
+"lung","smooth muscle cell",1291,"NR3C1",0.172629628624038,5.80945003872967
+"lung","smooth muscle cell",1291,"HP",0.0225065497783635,0.542215336948102
+"lung","smooth muscle cell",1291,"TYR",0,0
+"lung","smooth muscle cell",1291,"SERPINE1",0.0576094502942192,1.85902401239349
+"lung","smooth muscle cell",1291,"MAPK14",0.0588756545014571,2.01394268009295
+"lung","smooth muscle cell",1291,"TP53",0.0622737281120659,2.01394268009295
+"lung","smooth muscle cell",1291,"INSR",0.0303736781207748,1.00697134004648
+"lung","smooth muscle cell",1291,"CASP9",0.0250039623214724,0.929512006196747
+"lung","smooth muscle cell",1291,"PGM1",0.0674459905835187,2.24632068164214
+"lung","smooth muscle cell",1291,"FCER2",0,0
+"lung","smooth muscle cell",1291,"VEGFD",0.0607423132102758,2.01394268009295
+"lung","smooth muscle cell",1291,"PTGS2",0.0661869425944791,2.24632068164214
+"lung","smooth muscle cell",1291,"IL1B",0.137017651541886,4.41518202943455
+"lung","smooth muscle cell",1291,"ATM",0.0428684794223245,1.47172734314485
+"lung","smooth muscle cell",1291,"ESR1",0.00273157055649551,0.0774593338497289
+"lung","smooth muscle cell",1291,"TAC1",0,0
+"lung","smooth muscle cell",1291,"SNCA",0.050932290565124,1.78156467854376
+"lung","smooth muscle cell",1291,"CCK",0,0
+"lung","smooth muscle cell",1291,"ADRB2",0.0329180060172771,1.0844306738962
+"lung","smooth muscle cell",1291,"VEGFA",0.132819779523477,4.33772269558482
+"lung","smooth muscle cell",1291,"CDKN2A",0,0
+"lung","smooth muscle cell",1291,"TFRC",0.100660554740197,3.25329202168861
+"lung","smooth muscle cell",1291,"TSHR",0,0
+"lung","smooth muscle cell",1291,"TIMP1",0.86898743768773,26.4136328427576
+"lung","smooth muscle cell",1291,"IL13",0,0
+"lung","smooth muscle cell",1291,"IL6",0.0433442645439258,1.23934934159566
+"lung","smooth muscle cell",1291,"APP",0.461304571216771,15.0271107668474
+"lung","smooth muscle cell",1291,"MMP9",0.00214890075468374,0.0774593338497289
+"lung","T cell",1644,"PTGER3",0.00208586431891168,0.0608272506082725
+"lung","T cell",1644,"MMP2",0.0496994224709188,1.7639902676399
+"lung","T cell",1644,"NR3C2",0.0165277868663285,0.547445255474453
+"lung","T cell",1644,"IGF1",0.0139760365717214,0.547445255474453
+"lung","T cell",1644,"CYCS",0.766803863170358,25.1824817518248
+"lung","T cell",1644,"HMOX1",0.03896505819938,1.27737226277372
+"lung","T cell",1644,"INS",0,0
+"lung","T cell",1644,"IL2RA",0.0374337926918586,1.21654501216545
+"lung","T cell",1644,"TIMP3",0.152325276029155,4.8661800486618
+"lung","T cell",1644,"ADRA2B",0.00172888981491439,0.0608272506082725
+"lung","T cell",1644,"EGFR",0.0149912992493632,0.48661800486618
+"lung","T cell",1644,"SOD1",0.766713073881475,25.4257907542579
+"lung","T cell",1644,"IFNG",0.608752678599429,16.6058394160584
+"lung","T cell",1644,"BCL2",0.0533266291544884,1.7639902676399
+"lung","T cell",1644,"TF",0,0
+"lung","T cell",1644,"F7",0,0
+"lung","T cell",1644,"CD40",0.0188980666215793,0.608272506082725
+"lung","T cell",1644,"AKR1B1",0.175473378261262,5.96107055961071
+"lung","T cell",1644,"CA2",0.044103248928463,1.45985401459854
+"lung","T cell",1644,"HIF1A",0.128535286534793,4.1970802919708
+"lung","T cell",1644,"NOS3",0.00372485123922598,0.121654501216545
+"lung","T cell",1644,"CXCL8",0.253445197858375,7.78588807785888
+"lung","T cell",1644,"HBB",0.0209113401378774,0.72992700729927
+"lung","T cell",1644,"GATA1",0.00148292603950878,0.0608272506082725
+"lung","T cell",1644,"ABCB1",0.0243877419670787,0.790754257907543
+"lung","T cell",1644,"NR3C1",0.222144847320723,7.2992700729927
+"lung","T cell",1644,"HP",0.00395134953176628,0.121654501216545
+"lung","T cell",1644,"TYR",0,0
+"lung","T cell",1644,"SERPINE1",0.0109731785280305,0.364963503649635
+"lung","T cell",1644,"MAPK14",0.0303400731993791,1.03406326034063
+"lung","T cell",1644,"TP53",0.0819900494247229,2.91970802919708
+"lung","T cell",1644,"INSR",0.0251633164433325,0.851581508515815
+"lung","T cell",1644,"CASP9",0.0114665614912459,0.364963503649635
+"lung","T cell",1644,"PGM1",0.0617561610570182,2.12895377128954
+"lung","T cell",1644,"FCER2",0,0
+"lung","T cell",1644,"VEGFD",0.00872583190321429,0.304136253041363
+"lung","T cell",1644,"PTGS2",0.0393447444615915,1.338199513382
+"lung","T cell",1644,"IL1B",0.141920415352585,4.50121654501217
+"lung","T cell",1644,"ATM",0.0546005619243968,1.82481751824817
+"lung","T cell",1644,"ESR1",0,0
+"lung","T cell",1644,"TAC1",0,0
+"lung","T cell",1644,"SNCA",0.0286798523515371,1.09489051094891
+"lung","T cell",1644,"CCK",0,0
+"lung","T cell",1644,"ADRB2",0.0486202248941288,1.58150851581509
+"lung","T cell",1644,"VEGFA",0.0396557453499333,1.39902676399027
+"lung","T cell",1644,"CDKN2A",0.0385364521306078,1.39902676399027
+"lung","T cell",1644,"TFRC",0.153908867202588,5.17031630170316
+"lung","T cell",1644,"TSHR",0.0130967827749223,0.547445255474453
+"lung","T cell",1644,"TIMP1",0.394011564265391,12.4087591240876
+"lung","T cell",1644,"IL13",0.0120709725155543,0.425790754257908
+"lung","T cell",1644,"IL6",0.0235923989586149,0.72992700729927
+"lung","T cell",1644,"APP",0.0923823567562106,3.16301703163017
+"lung","T cell",1644,"MMP9",0,0

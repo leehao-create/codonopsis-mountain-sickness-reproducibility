@@ -1,0 +1,3 @@
+COMMAND: obabel -ipdb <module_root>/prepared/MMP9/receptor_for_openbabel.pdb -opdbqt -O <module_root>/prepared/MMP9/receptor.pdbqt -xr --partialcharge gasteiger
+
+1 molecule converted

@@ -1,0 +1,11 @@
+﻿method,metric,observed,null_mean,null_median,null_q95,empirical_permutation_P,permutations,permutation_scheme
+LASSO,ROC_AUC,0.942148760330578,0.491669288991206,0.5,0.633057851239669,0.004,499,within-subject plain/high label swap
+LASSO,balanced_accuracy,0.909090909090909,0.498724722171616,0.5,0.590909090909091,0.004,499,within-subject plain/high label swap
+ElasticNet,ROC_AUC,0.991735537190083,0.486866294572616,0.495867768595041,0.67892561983471,0.004,499,within-subject plain/high label swap
+ElasticNet,balanced_accuracy,0.954545454545455,0.499817817453088,0.5,0.636363636363636,0.004,499,within-subject plain/high label swap
+RF,ROC_AUC,0.983471074380165,0.481168949469186,0.487603305785124,0.785123966942149,0.002,499,within-subject plain/high label swap
+RF,balanced_accuracy,0.954545454545455,0.496538531608672,0.5,0.772727272727273,0.004,499,within-subject plain/high label swap
+SVM,ROC_AUC,1,0.485201808575829,0.479338842975207,0.743801652892562,0.004,499,within-subject plain/high label swap
+SVM,balanced_accuracy,0.954545454545455,0.494443432319184,0.5,0.727272727272727,0.004,499,within-subject plain/high label swap
+Ensemble,ROC_AUC,1,0.475628943838089,0.479338842975207,0.752892561983471,0.004,499,within-subject plain/high label swap
+Ensemble,balanced_accuracy,0.909090909090909,0.494170158498816,0.5,0.772727272727273,0.004,499,within-subject plain/high label swap

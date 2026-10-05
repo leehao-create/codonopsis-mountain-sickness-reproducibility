@@ -1,0 +1,14 @@
+receptor = prepared/MMP9/receptor.pdbqt
+ligand = results/candidate_docking/MMP9/MOL000006/MOL000006.pdbqt
+out = results/candidate_docking/MMP9/MOL000006/MOL000006_docked.pdbqt
+center_x = 65.839
+center_y = 30.707
+center_z = 117.746
+size_x = 22.0
+size_y = 22.0
+size_z = 23.0
+exhaustiveness = 32
+num_modes = 20
+energy_range = 8
+seed = 20260927
+cpu = 8

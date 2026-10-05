@@ -1,0 +1,6 @@
+﻿package,version
+R,4.5.3
+glmnet,5.0
+randomForest,4.7.1.2
+e1071,1.7.17
+ggplot2,4.0.2

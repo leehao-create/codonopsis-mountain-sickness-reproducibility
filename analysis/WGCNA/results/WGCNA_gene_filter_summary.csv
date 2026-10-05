@@ -1,0 +1,7 @@
+"stage","genes","rule"
+"input",24901,"none"
+"FPKM >= 1 in >= 5/20 samples",8580,"phenotype-blind expression eligibility"
+"nonzero log2-scale MAD",8577,"remove zero-variance genes"
+"primary: upper 50% MAD",4289,"MAD >= median = 0.50484"
+"sensitivity: upper 25% MAD",2145,"MAD >= 75th percentile = 0.659983"
+"sensitivity: all expression-eligible",8580,"no variance quantile filter"

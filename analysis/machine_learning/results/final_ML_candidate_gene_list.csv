@@ -1,0 +1,8 @@
+gene,tier,methods_supported,supported_methods,LASSO_frequency,ElasticNet_frequency,RF_frequency,RF_median_permutation_importance,SVM_RFE_frequency
+ATM,Tier 1,4,LASSO; Elastic Net; Random Forest; SVM-RFE,0.975,1.000,0.930,0.02121349,0.910
+SNCA,Tier 1,4,LASSO; Elastic Net; Random Forest; SVM-RFE,0.970,1.000,0.795,0.01660595,0.935
+BCL2,Tier 1,4,LASSO; Elastic Net; Random Forest; SVM-RFE,0.640,1.000,0.665,0.01501349,0.780
+APP,Tier 2,3,Elastic Net; Random Forest; SVM-RFE,0.465,1.000,0.650,0.01276944,0.740
+HBB,Tier 2,3,Elastic Net; Random Forest; SVM-RFE,0.110,0.900,0.710,0.01134444,0.780
+CA2,Tier 2,3,Elastic Net; Random Forest; SVM-RFE,0.040,0.915,0.790,0.01576746,0.675
+GATA1,Tier 2,3,Elastic Net; Random Forest; SVM-RFE,0.000,0.900,0.670,0.01068532,0.655
