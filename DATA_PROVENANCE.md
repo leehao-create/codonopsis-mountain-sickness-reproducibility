@@ -4,7 +4,7 @@
 |---|---|---|---|
 | GSE103940 processed FPKM and sample map | NCBI GEO GSE103940 | Gene-symbol FPKM matrix used for the manuscript-locked 2,782-DEG result and author-curated pairing map included | Included; cite the GEO accession |
 | GSE75665 counts, FPKM and sample map | NCBI GEO GSE75665 | Included as accession-derived inputs and author-curated repeated-measures map | Included; cite the GEO accession |
-| GSE260910 metadata | NCBI GEO GSE260910 | Sample map and confounding result included; no inferential HAPE result included | Releasable as derived audit material |
+| GSE260910 metadata | NCBI GEO GSE260910 | HAPE case-control dataset used in the manuscript analysis; sample map and post hoc disease-batch confounding audit included | Releasable as derived audit material; interpret HAPE-specific results in light of complete confounding |
 | MSigDB Hallmark, Reactome and GO BP GMT | MSigDB v2025.1.Hs | Not included | Users must obtain the named GMT files under the applicable MSigDB terms and set `MSIGDB_DIR` |
 | 54 overlapping targets | Derived from archived network-pharmacology workflow | Compact derived gene list included; raw database exports excluded | Author should cite all contributing databases |
 | GeneCards and OMIM exports | GeneCards / OMIM | Excluded | Do not redistribute raw exports |
@@ -12,7 +12,7 @@
 | STRING/Cytoscape display tables | Frozen STRING-derived PPI results | Three compact Figure 1 plot tables retained with attribution | Included under STRING CC BY 4.0; exact historical STRING release was not recorded |
 | Blood/lung RDS objects | Human Cell Landscape reference atlas, associated with GSE134355 | Custom processed objects removed; frozen derived localization tables and object checksums retained | Not redistributed; obtain source matrices from GSE134355 and provide authorized objects through `HCL_RDS_DIR` |
 | NCBI GeneID-to-symbol mapping | NCBI Gene `Homo_sapiens.gene_info.gz` | Archived mapping removed; current download/conversion helper and archived digest retained | Not redistributed; run `analysis/differential_expression/scripts/download_ncbi_gene_mapping.sh` or set `NCBI_GENE_MAP` |
-| GSE260910 family SOFT | NCBI GEO GSE260910 | Not included; sample map and final confounding audit are retained | Download from GEO and set `GSE260910_SOFT`; used only for metadata verification |
+| GSE260910 family SOFT | NCBI GEO GSE260910 | Not included; sample map and post hoc confounding audit are retained | Download from GEO and set `GSE260910_SOFT` to reproduce metadata verification of the documented limitation |
 | PDB structures 2AA2 and 1GKC | RCSB PDB | Included with identifiers and provenance | Preserve RCSB/PDB attribution |
 | Candidate ligand SDF files | Archived PubChem 3D records; CIDs in `source_provenance.csv` | Included | Preserve PubChem attribution |
 
@@ -47,7 +47,7 @@
 - Source: NCBI GEO GSE260910, <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE260910>.
 - Input: GEO family SOFT, expected filename `GSE260910_family.soft.gz`.
 - Configuration: set `GSE260910_SOFT` to the downloaded file before running `analysis/differential_expression/scripts/02_GSE260910_batch_audit.R`.
-- Scope: metadata and design-rank audit only; the repository does not perform inferential HAPE differential expression or supervised machine learning with this dataset.
+- Scope: the dataset was used for the HAPE case-control analysis reported in the manuscript. The released audit documents complete confounding between disease status and sequencing batch, which should be considered when interpreting HAPE-specific results; GSE260910 is not included in the released supervised machine-learning workflow.
 
 No controlled-access clinical data or direct participant identifiers are included. Public GSM accessions and study pseudonyms are retained where required to reproduce paired or repeated-measures designs.
 

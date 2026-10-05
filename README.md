@@ -6,7 +6,7 @@ This release-staging repository contains the frozen computational materials for 
 
 - GSE103940: high-altitude exposure transcriptomics (11 subjects, plain and high-altitude samples). The manuscript-locked DEG table reports 2,782 genes (118 increased and 2,664 decreased at high altitude); see the version note below.
 - GSE75665: repeated-measures AMS study (10 subjects, plain and high-altitude samples; 5 AMS and 5 non-AMS).
-- GSE260910: retained only for the documented disease-batch confounding audit; it is not used for inferential HAPE differential expression or supervised machine learning.
+- GSE260910: HAPE case-control transcriptomic dataset used in the manuscript analysis. A post hoc audit identified complete confounding between disease status and sequencing batch; this limitation is documented in the repository and should be considered when interpreting HAPE-specific results.
 - GSE134355 / Human Cell Landscape reference objects: descriptive blood and lung cell-type localization only, not disease validation.
 
 ## Repository layout
