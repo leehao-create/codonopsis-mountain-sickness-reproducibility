@@ -1,0 +1,15 @@
+scope,file,role,status
+manuscript_primary,manuscript_primary/results/WGCNA_analysis_config.csv,Primary parameter record,current
+manuscript_primary,manuscript_primary/results/WGCNA_gene_filter_summary.csv,Primary filtering counts,current
+manuscript_primary,manuscript_primary/results/WGCNA_soft_threshold_selected_power.csv,Beta-16 signed diagnostic summary,current
+manuscript_primary,manuscript_primary/results/WGCNA_module_assignments.csv,Primary 2810-gene module assignment,current
+manuscript_primary,manuscript_primary/results/WGCNA_module_sizes.csv,Primary 12-module sizes,current
+manuscript_primary,manuscript_primary/results/WGCNA_module_eigengenes.csv,Archived module eigengenes,current
+manuscript_primary,manuscript_primary/results/WGCNA_module_trait_4group_correlations.csv,Original 12 by 4 correlations,current
+manuscript_primary,manuscript_primary/results/WGCNA_module_trait_4group_pvalues.csv,Original 12 by 4 nominal P values,current
+reviewer_check,reviewer_checks/results/WGCNA_4group_48test_BH_results.csv,Global BH check across original 48 tests,diagnostic
+reviewer_check,reviewer_checks/results/WGCNA_binary_AMS_statistics_with_BH.csv,Binary AMS 12-test BH check,diagnostic
+reviewer_check,reviewer_checks/results/WGCNA_candidate_target_module_mapping.csv,Candidate target module mapping,diagnostic
+reviewer_check,reviewer_checks/results/WGCNA_Codonopsis_target_enrichment.csv,Module-size-aware enrichment and BH values,diagnostic
+reviewer_check,reviewer_checks/results/WGCNA_MMP9_diagnostics.csv,MMP9 kME GS P kWithin and rank,diagnostic
+archive,archive/nonmanuscript_beta30/,Exploratory 4289-gene beta30 analysis not used in manuscript,archive_nonmanuscript

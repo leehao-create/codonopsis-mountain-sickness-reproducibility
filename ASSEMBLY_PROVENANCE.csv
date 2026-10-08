@@ -1,7 +1,7 @@
 module,archived_project_source,repository_destination,assembly_action
 network_pharmacology,revision_ijms/rebuild_final/00_fig1_network_pharmacology,analysis/network_pharmacology,copy final derived data/scripts/results; exclude raw restricted database exports
-differential_expression,revision_ijms/final_bulk and revision_ijms/reanalysis/phase3_transcriptomics,analysis/differential_expression,copy frozen final scripts/inputs/results without analysis rerun
-WGCNA,revision_ijms/reanalysis/bulk_revision/GSE75665 and revision_ijms/reanalysis/revised_WGCNA_final,analysis/WGCNA,preserve authoritative beta=30 revised analysis only
+differential_expression,project.R plus archived GEO supplementary FPKM files and frozen downstream result directories,analysis/differential_expression,preserve the condition-only limma workflow and frozen 2782-DEG output without analysis rerun; retain other dataset-specific final scripts and results
+WGCNA,lhh/04.bulk/1_2 and original 代码.r plus reviewer-check directories,analysis/WGCNA,preserve manuscript-primary 2810-gene beta16 12-module workflow; isolate reviewer checks and archive nonmanuscript beta30 reanalysis
 machine_learning,revision_ijms/reanalysis/revised_ML_final and revision_ijms/fig5_feature_prioritization,analysis/machine_learning,copy frozen nested-LOSO results/dependencies/figures; GSE260910 was used in the manuscript HAPE analysis but is omitted from the released supervised ML workflow because the post hoc audit identified complete disease-batch confounding
 single_cell,revision_ijms/phase6_candidate_integration and lhh/05.singlecell,analysis/single_cell,copy final descriptive localization outputs; exclude custom HCL RDS objects and retain checksums/acquisition notes
 cell_composition,revision_ijms/reviewer1_cell_composition_audit,analysis/cell_composition,copy final marker audit; exclude manuscript claim audit/internal report

@@ -1,75 +1,37 @@
-# Final WGCNA Repository Audit
+# WGCNA Repository Version Audit
 
 ## Outcome
 
-The public-release staging repository now contains only the final revised GSE75665 WGCNA based on beta = 30 and 4,289 retained genes. No analysis was rerun, no result was recalculated, and no manuscript file was modified.
+The repository has one clearly identified manuscript-primary WGCNA: the original GSE75665 2,810-gene, beta-16 workflow producing 12 modules. No biological analysis was rerun during repository assembly.
 
-## Included files
+## Primary workflow trace
 
-### Scripts
+- Input: `analysis/WGCNA/data/processed/GSE75665_WGCNA_input_FPKM.csv`.
+- Preserved code: `analysis/WGCNA/manuscript_primary/scripts/01_GSE75665_manuscript_primary_WGCNA.R`.
+- Missing/zero-total filter: 20,751 genes remained.
+- Variability filter: `MAD > 1.5`; 2,810 genes remained.
+- Soft-threshold diagnostics: explicit signed-network setting; beta = 16; R2 = 0.0419; R2 >= 0.85 not reached.
+- Module construction: original `blockwiseModules` call, with `TOMType = "signed"` and no explicit `networkType` argument.
+- Other parameters: Pearson correlation, `minModuleSize = 20`, `mergeCutHeight = 0.05`, `reassignThreshold = 0`, and `maxBlockSize = 2810`.
+- Frozen module assignment: 12 modules including grey.
 
-- `analysis/WGCNA/scripts/03_GSE75665_signed_WGCNA.R`
-- `analysis/WGCNA/scripts/01_build_revised_WGCNA_figure_and_tables.R`
+The repository does not claim that an explicitly signed adjacency generated the 12-module result.
 
-Both files are exact copies of the archived final scripts.
+## Reviewer-check boundary
 
-### Inputs
+`analysis/WGCNA/reviewer_checks/` contains:
 
-- `analysis/WGCNA/data/processed/GSE75665_WGCNA_input_FPKM.csv`
-- `analysis/WGCNA/data/metadata/GSE75665_subject_pairing.csv`
-- `analysis/WGCNA/data/reference/Codonopsis_54_overlap_targets.csv`
+- binary AMS correlations and BH adjustment across 12 modules (minimum adjusted P = 0.0607);
+- the original 12 x 4 group-indicator matrices and global BH adjustment across 48 values (minimum adjusted P = 0.387);
+- module-size-aware candidate-target enrichment (all BH-adjusted P > 0.05);
+- MMP9 diagnostics: turquoise, kME = 0.852, traditional GS = 0.4423, GS P = 0.0508, signed-adjacency kWithin = 226.2, rank 967/1,147.
 
-The FPKM matrix was included because it is a compact processed matrix derived from the public GEO dataset GSE75665 and is necessary to reproduce the exact retained-gene universe. The repository documents the unrecovered upstream GeneID-to-symbol conversion rather than inferring or recreating it.
+These checks do not redefine the primary network. MMP9 is exploratory context and not a high-connectivity hub.
 
-### Required final results
+## Archived nonmanuscript analysis
 
-- `WGCNA_analysis_config.csv`
-- `WGCNA_gene_filter_summary.csv`
-- `WGCNA_sample_QC.csv`
-- `WGCNA_soft_threshold_candidates.csv`
-- `WGCNA_soft_threshold_decision.csv`
-- `WGCNA_module_assignments.csv`
-- `WGCNA_module_sizes.csv`
-- `WGCNA_module_trait_mixed_effects.csv`
-- `WGCNA_gene_module_metrics.csv`
-- `WGCNA_candidate_gene_metrics.csv`
-- `WGCNA_Codonopsis_target_enrichment.csv`
+The former 4,289-gene/beta-30 explicitly signed reanalysis is preserved under `analysis/WGCNA/archive/nonmanuscript_beta30/`. Its README states that it was not used in the submitted manuscript. No file in the current primary or reviewer-check directories depends on those module assignments.
 
-### Additional final provenance/results
+## Remaining provenance limits
 
-- `WGCNA_module_eigengenes.csv`
-- `WGCNA_primary_network.rds`
-- `WGCNA_hub_genes.csv`
-- `WGCNA_sample_outlier_decision.txt`
-- `WGCNA_sessionInfo.txt`
-
-## Final-version assertions checked
-
-- retained genes = 4,289;
-- MAD threshold = 0.50484;
-- network type = signed;
-- TOM type = signed;
-- selected beta = 30;
-- R2 threshold 0.85 was not reached;
-- beta 30 selected by the documented negative-slope/nondegenerate-connectivity fallback rule;
-- `minModuleSize = 20`;
-- `deepSplit = 2`;
-- `mergeCutHeight = 0.25`;
-- three biological modules plus grey;
-- subject-aware mixed model;
-- global BH correction across nine module-effect tests;
-- no module-effect association significant after BH correction.
-
-## Legacy exclusion check
-
-The repository contains no filename or result table identified as a legacy beta = 16 network, no 2,810-gene module assignment, no 12-module output, no legacy binary-trait module-correlation table, and no legacy “MMP9 hub” result. S4 CSV mirrors were omitted to avoid redundant copies with unclear precedence. The beta = 16 row remains in the complete soft-threshold candidate diagnostics because it is one prespecified candidate power among powers 1-30; it is not selected and is not a beta = 16 network result.
-
-## Missing or constrained items
-
-1. The final analysis script retains the archived project-relative path layout; an external user must map the three included inputs to those paths or change path variables only.
-2. The final figure/table script contains an archived absolute project root and expects the master `Supplementary Tables.xlsx` workbook, which is outside this WGCNA-only module. The authoritative WGCNA result files needed for verification are included.
-3. A fully automated script converting the upstream GEO GeneID FPKM table to the final gene-symbol FPKM matrix was not recovered. The exact final processed matrix is included with checksums.
-4. No repository-wide `renv.lock` was available. Exact package versions are provided in `WGCNA_sessionInfo.txt`.
-5. The persistent external host/DOI is not created by this staging operation.
-
-These limitations concern path portability, upstream matrix provenance, and repository deployment; they do not create competing WGCNA result versions.
+The exact upstream GeneID-to-symbol conversion script was not recovered. The exact processed FPKM matrix and checksum are therefore included. The beta-16 soft-threshold table was not archived in full; the release reports the manuscript-locked beta-16 R2 value without inventing unavailable slope or connectivity values.

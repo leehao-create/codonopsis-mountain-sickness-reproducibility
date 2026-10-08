@@ -1,0 +1,204 @@
+expr_matrix<-read.table("GSE75665_norm_counts_FPKM_GRCh38.p13_NCBI.tsv",
+                        header = T,row.names = 1)
+
+a<-read.table("ncbi2name.txt",sep = "\t",header = T)
+colnames(a)<-c("ncbi","name")
+
+o<-intersect(a$ncbi,rownames(expr_matrix))
+expr_matrix<-expr_matrix[o,]
+a<-a[a$ncbi%in%o,]
+a<-unique(a)
+b<-merge(a,expr_matrix,by.x = "ncbi",by.y = "row.names",all=F)
+length(unique(b$name))
+
+b <- b[!duplicated(b$name), ]
+b<-b[,-1]
+
+rownames(b)<-b$name
+b<-b[,-1]
+
+
+write.csv(b,"fpkm.csv")
+gc()
+
+dataExpr<-read.csv("fpkm.csv",row.names = 1)
+
+library(WGCNA)
+
+library(reshape2)
+library(stringr)
+
+dataExpr <- na.omit(dataExpr)
+dataExpr <- dataExpr[which(rowSums(dataExpr)!=0),] #删除表达量为0的基因
+dim(dataExpr)
+
+[1] 20751    20
+
+
+m.mad <- apply(dataExpr,1,mad)
+quantile(m.mad, probs=seq(0, 1, 0.25)) 
+dataExprVar <- dataExpr[which(m.mad > 1.5),]
+
+dim(dataExprVar)
+
+
+## 转换为样品在行，基因在列的矩阵
+dataExpr <- as.data.frame(t(dataExprVar))
+[1] 2810   20
+
+## 检测缺失值
+gsg = goodSamplesGenes(dataExpr, verbose = 3)
+
+
+if (!gsg$allOK){
+  # Optionally, print the gene and sample names that were removed:
+  if (sum(!gsg$goodGenes)>0)
+    printFlush(paste("Removing genes:",
+                     paste(names(dataExpr)[!gsg$goodGenes], collapse = ",")));
+  if (sum(!gsg$goodSamples)>0)
+    printFlush(paste("Removing samples:",
+                     paste(rownames(dataExpr)[!gsg$goodSamples], collapse = ",")));
+  # Remove the offending genes and samples from the data:
+  dataExpr = dataExpr[gsg$goodSamples, gsg$goodGenes]
+}
+
+
+
+sampleTree = hclust(dist(dataExpr), method = "average")
+plot(sampleTree, main = "Sample clustering to detect outliers", sub="", xlab="")
+
+
+
+#####
+powers = c(c(1:10), seq(from = 12, to=30, by=2))
+type = "signed"
+sft = pickSoftThreshold(dataExpr, powerVector=powers,
+                        networkType=type, verbose=5)
+par(mfrow = c(1,2))
+cex1 = 0.9
+plot(sft$fitIndices[,1], -sign(sft$fitIndices[,3])*sft$fitIndices[,2],
+     xlab="Soft Threshold (power)",
+     ylab="Scale Free Topology Model Fit,signed R^2",type="n",
+     main = paste("Scale independence"))
+text(sft$fitIndices[,1], -sign(sft$fitIndices[,3])*sft$fitIndices[,2],
+     labels=powers,cex=cex1,col="red")
+# 筛选标准。R-square=0.85
+abline(h=0.85,col="red")
+# Soft threshold与平均连通性
+plot(sft$fitIndices[,1], sft$fitIndices[,5],
+     xlab="Soft Threshold (power)",ylab="Mean Connectivity", type="n",
+     main = paste("Mean connectivity"))
+text(sft$fitIndices[,1], sft$fitIndices[,5], labels=powers,
+     cex=cex1, col="red")
+
+power = sft$powerEstimate
+power
+NA
+#根据官网建议选择16
+
+#########
+
+gc()
+memory.limit(size = 64000)  # 设为 64GB，根据实际可用内存调整
+
+
+nGenes = ncol(dataExpr)
+nSamples = nrow(dataExpr)
+corType = "pearson"
+
+#maxblocksize= 划分成多少block计算正式运行
+net = blockwiseModules(dataExpr, power = 16, maxBlockSize = nGenes,
+                       TOMType = "signed", minModuleSize = 20,
+                       reassignThreshold = 0, mergeCutHeight = 0.05,
+                       numericLabels = TRUE, pamRespectsDendro = FALSE,
+                       saveTOMs=F, corType = corType,
+                       loadTOMs=TRUE,
+                       verbose = 3)
+
+table(net$colors)
+## 灰色的为**未分类**到模块的基因。
+# Convert labels to colors for plotting
+moduleLabels = net$colors
+moduleColors = labels2colors(moduleLabels)
+# Plot the dendrogram and the module colors underneath
+# 如果对结果不满意，还可以recutBlockwiseTrees，节省计算时间
+plotDendroAndColors(net$dendrograms[[1]], moduleColors[net$blockGenes[[1]]],
+                    "Module colors",
+                    dendroLabels = FALSE, hang = 0.03,
+                    addGuide = TRUE, guideHang = 0.05)
+
+MEs = net$MEs
+
+MEs_col = MEs
+colnames(MEs_col) = paste0("ME", labels2colors(
+  as.numeric(str_replace_all(colnames(MEs),"ME",""))))
+MEs_col = orderMEs(MEs_col)
+
+
+colnames(MEs_col)
+colnames(MEs)
+# 根据基因间表达量进行聚类所得到的各模块间的相关性图
+# marDendro/marHeatmap 设置下、左、上、右的边距
+plotEigengeneNetworks(MEs_col, "Eigengene adjacency heatmap",
+                      marDendro = c(3,3,2,4),
+                      marHeatmap = c(3,4,2,2), plotDendrograms = T,
+                      xLabelsAngle = 90)
+
+
+library(pheatmap)
+pheatmap(MEs_col)
+max(MEs_col)
+
+
+library(stringr)
+
+a<-read.csv("metadata.csv",row.names = 1) #输入文件，样本信息表，包含分组信息
+a <- a[colnames(dataExprVar), ,drop=F]
+colnames(dataExprVar)
+
+
+design <- model.matrix(~0+factor(a$group))
+colnames(design) <- levels(factor(a$group))
+rownames(design) <- colnames(dataExprVar)
+
+
+modTraitCor = cor(MEs_col, design ,use = "p")
+modTraitP = corPvalueStudent(modTraitCor, nSamples)
+
+textMatrix = paste(signif(modTraitCor, 2), "\n(", signif(modTraitP, 1), ")", sep = "")
+dim(textMatrix) = dim(modTraitCor)
+
+gc()
+a1<-as.data.frame(modTraitCor)
+pheatmap(a1)
+
+labeledHeatmap(Matrix = modTraitCor, xLabels = colnames(design),
+               yLabels = colnames(MEs_col),
+               cex.lab = 0.5,
+               ySymbols = colnames(MEs_col), colorLabels = FALSE,
+               colors = rev(brewer.pal(11,"RdBu")[3:8]),
+               textMatrix = textMatrix, setStdMargins = FALSE,
+               cex.text = 0.5, zlim = c(-1,1),
+               main = paste("Module-trait relationships"))
+
+
+###
+library(viridis)
+library(RColorBrewer)
+######
+brewer.pal(9, "RdBu")
+blueWhiteRed(50)
+brewer.pal(11,"RdBu")[3:8]
+viridis(50, option = "D")
+###
+a<-net$colors
+a<-as.data.frame(a)
+unique(a$a)
+write.csv(a,"module.gene.csv")
+##
+write.csv(MEs,"MEs.csv")
+write.csv(MEs_col,"MEs_col.csv")
+write.csv(modTraitCor,"modTraitCor.csv")
+write.csv(modTraitP,"modTraitP.csv")
+
+

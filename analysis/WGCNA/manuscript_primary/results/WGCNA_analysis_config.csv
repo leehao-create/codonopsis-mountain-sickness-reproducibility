@@ -1,0 +1,18 @@
+parameter,value,provenance_note
+dataset,GSE75665,Manuscript-primary archived workflow
+samples,20,Archived input and metadata
+genes_after_missing_zero_filter,20751,Original script console annotation
+MAD_rule,MAD > 1.5,Original script
+retained_genes,2810,Original script and module assignment
+soft_threshold_diagnostic_network_type,signed,Explicit pickSoftThreshold argument in original script
+soft_threshold_power,16,Original blockwiseModules call
+scale_free_fit_R2_at_beta16,0.0419,Manuscript-locked reported diagnostic value
+scale_free_R2_criterion,0.85,Original diagnostic plot threshold; not reached
+module_construction_network_type,not explicitly set,Original blockwiseModules call preserved unchanged
+TOMType,signed,Explicit blockwiseModules argument
+correlation,Pearson,Original blockwiseModules corType
+minModuleSize,20,Original blockwiseModules argument
+mergeCutHeight,0.05,Original blockwiseModules argument
+reassignThreshold,0,Original blockwiseModules argument
+maxBlockSize,2810,Set to nGenes in original script
+module_count_including_grey,12,Archived module assignment

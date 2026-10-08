@@ -1,0 +1,4 @@
+stage,genes,samples,rule
+processed_gene_symbol_FPKM_input,24901,20,Archived GSE75665 processed matrix
+after_missing_and_zero_total_filter,20751,20,na.omit and rowSums != 0
+WGCNA_retained,2810,20,MAD > 1.5

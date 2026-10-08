@@ -55,6 +55,10 @@ No controlled-access clinical data or direct participant identifiers are include
 
 The main differential-expression release uses the archived GEO supplementary FPKM values in `analysis/differential_expression/data/processed/GSE103940_FPKM_gene_symbol_matrix.csv`. The reproduction script preserves the archived transformation and condition-only limma design and asserts the manuscript counts of 2,782 total DEGs, 118 increased and 2,664 decreased at high altitude. A later paired count/TMM/voom analysis yielding 296 DEGs is excluded from the main differential-expression release. Frozen count/voom dependencies retained for the reviewer-requested cell-composition audit are explicitly scoped to that audit and are not a substitute primary DEG result.
 
+### GSE75665 WGCNA version boundary
+
+The manuscript-primary WGCNA uses the included processed FPKM matrix, removes missing/zero-total genes, applies `MAD > 1.5`, and retains 2,810 genes. Signed soft-threshold diagnostics selected the manuscript-used beta of 16 (reported R2 = 0.0419; the conventional 0.85 criterion was not reached). Module construction preserves the original `blockwiseModules` call with `TOMType = "signed"` and no explicit `networkType` argument, producing 12 modules including grey. Binary-AMS, 48-test multiplicity, module enrichment and MMP9 metric checks are stored under `analysis/WGCNA/reviewer_checks/`; the 4,289-gene/beta-30 exploration is stored only under `analysis/WGCNA/archive/nonmanuscript_beta30/` and is not the submitted analysis.
+
 ## Licensing boundary
 
 The repository MIT License applies only to author-written code. All third-party data and resources remain subject to their source terms. Inclusion of a derived output does not transfer ownership or relicense its upstream source; the repository provides attribution and modification notices where applicable.

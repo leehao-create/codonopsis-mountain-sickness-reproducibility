@@ -42,4 +42,13 @@ Frozen before the final robustness models were run (2026-09-17).
 - RF selection remains based on permutation importance exceeding both zero and
   its resample-specific 95th percentile null threshold; no Top-N rule is used.
 
+## Random-seed record
+
+- Outer LOSO and grouped inner-fold assignment are deterministic.
+- Stochastic outer-fold model fits derive their seeds from base seed `103940`.
+- Penalized-model and SVM-RFE stability resamples derive replicate-specific seeds from `720260917`.
+- Random-forest stability uses base seed `4103940` and the derived formulas retained in code.
+- The 499 paired-label assignments were sampled with seed `5103940`.
+- The 5,000 subject bootstrap resamples use seed `4103940` and do not retrain models.
+
 No thresholds or tuning grids will be changed in response to the results.

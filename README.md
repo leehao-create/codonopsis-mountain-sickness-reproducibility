@@ -15,7 +15,7 @@ This release-staging repository contains the frozen computational materials for 
 analysis/
   network_pharmacology/      frozen candidate, PPI and enrichment display data
   differential_expression/  paired/repeated-measures bulk analyses and GSEA
-  WGCNA/                     final revised beta=30 signed network only
+  WGCNA/                     manuscript-primary workflow plus isolated reviewer checks and archive
   machine_learning/          frozen nested subject-level LOSO analysis
   single_cell/               reference-atlas localization
   cell_composition/          lineage-marker expression audit
@@ -32,7 +32,7 @@ Each module contains `scripts/`, inputs or frozen dependencies where redistribut
 1. Verify the release with `sha256sum -c checksums.sha256`.
 2. Read `DATA_PROVENANCE.md` and `external_data/THIRD_PARTY_INPUTS.csv`; obtain excluded third-party inputs, especially MSigDB v2025.1 gene-set files and the authorized Human Cell Landscape objects.
 3. Run differential-expression scripts in numerical order.
-4. Run the revised WGCNA scripts in `analysis/WGCNA/scripts/`.
+4. Run or inspect the manuscript-primary WGCNA materials in `analysis/WGCNA/manuscript_primary/`; reviewer-only diagnostics are isolated under `analysis/WGCNA/reviewer_checks/`.
 5. Run machine-learning scripts `01` through `04`; `99_validate_outputs.R` validates the frozen release outputs.
 6. Run the single-cell localization only after supplying authorized `blood1.rds` and `lung1.rds` objects through `HCL_RDS_DIR`; run the cell-composition audit with the included GEO-derived inputs.
 7. Create the docking environment from `analysis/molecular_docking/environment.yml`, activate it, and run `scripts/run_all.sh` only when full docking reproduction is desired.
@@ -43,9 +43,24 @@ No analysis was rerun during repository assembly. A syntax/static check does not
 
 The public main-analysis release follows the result frozen in the submitted manuscript: 2,782 DEGs, comprising 118 high-altitude-increased and 2,664 high-altitude-decreased genes. Its archived FPKM input, limma script, complete result table, annotated workbook and exact current Figure 2 are under `analysis/differential_expression/`. The later 296-DEG paired count/TMM/voom analysis is not released as the manuscript's primary differential-expression analysis. Count/voom dependencies that remain in the separate cell-composition and machine-learning modules serve those explicitly scoped analyses only.
 
-## Authoritative WGCNA version
+## Manuscript-primary WGCNA version
 
-Only the final revised WGCNA is included: 4,289 retained genes, MAD threshold 0.50484, signed network and signed TOM, beta=30, `minModuleSize=20`, `deepSplit=2`, and `mergeCutHeight=0.25`. No candidate power reached R2 >= 0.85; beta=30 was selected by the documented fallback rule. The network contains three biological modules (turquoise, blue, brown) plus grey/unclassified genes. A global BH correction was applied across nine subject-aware module-effect tests, and no association remained significant. Legacy beta=16, 2,810-gene and 12-module outputs are excluded.
+The manuscript-primary GSE75665 WGCNA used 2,810 genes after `MAD > 1.5`, beta = 16, and produced 12 modules including grey. Soft-threshold diagnostics were evaluated using a signed-network setting, while module construction used the original `blockwiseModules` workflow with a signed TOM. The original module-construction call did not explicitly set `networkType` and is preserved without altering its behavior. The signed soft-threshold fit at beta 16 was R2 = 0.0419 and did not satisfy the conventional R2 >= 0.85 criterion.
+
+The original 12 x 4 group-indicator module-trait matrices and reviewer-requested binary-AMS check are reported separately. No module association remained significant after the applicable BH correction; module-size-aware target enrichment was also non-significant. MMP9 is retained only as exploratory module context and is not presented as a high-connectivity hub. The separate 4,289-gene/beta-30 reanalysis is retained under `analysis/WGCNA/archive/nonmanuscript_beta30/` and is explicitly not used in the submitted manuscript.
+
+## Analysis modules
+
+1. Network pharmacology
+2. Differential expression and enrichment
+3. WGCNA manuscript-primary analysis
+4. Machine-learning nested LOSO validation
+5. Single-cell reference analysis
+6. Cell-composition reviewer analysis
+7. Molecular docking
+8. Reviewer-specific sensitivity checks
+
+Results under `reviewer_checks/` are diagnostic or sensitivity analyses and are not manuscript-primary findings.
 
 ## Integrity and release metadata
 

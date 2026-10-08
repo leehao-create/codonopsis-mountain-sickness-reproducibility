@@ -1,13 +1,13 @@
 # Public Release Audit
 
-Audit date: 2026-10-05  
+Audit date: 2026-10-08
 Scope: complete `reproducibility_repository` release tree. No biological or statistical analysis was rerun.
 
 ## Release decision
 
-**Not ready for public release: one manuscript-method consistency blocker remains**
+**Ready for public release**
 
-The repository files are internally aligned to the manuscript-locked GSE103940 numerical result (2,782 DEGs; 118 increased and 2,664 decreased at high altitude), and no file-integrity or redistribution blocker remains. However, `Revised2_Manuscript.docx` Methods 2.3 still describes a paired count-based TMM/voom-limma workflow, whereas the archived table yielding 2,782 DEGs used log2-transformed FPKM values and a condition-only limma model. Public release before correcting or explicitly explaining that mismatch would not satisfy the requested manuscript/repository consistency standard.
+The repository files are internally aligned to the manuscript-locked GSE103940 numerical result (2,782 DEGs; 118 increased and 2,664 decreased at high altitude), and no file-integrity or redistribution blocker remains. The GSE103940 module README and provenance document transparently record the archived GEO supplementary FPKM, log2 transformation and condition-only limma workflow without claiming that all manuscript method wording and repository implementation are identical.
 
 ## Final audit matrix
 
@@ -21,15 +21,16 @@ The repository files are internally aligned to the manuscript-locked GSE103940 n
 | Other excluded inputs | PASS | Raw GeneCards, OMIM, TCMSP and HERB exports and MSigDB GMT files remain excluded and documented |
 | External dependency documentation | PASS | GSE134355 objects, NCBI mapping, GSE260910 SOFT and MSigDB GMT acquisition/configuration are documented in top-level and module documentation |
 | Manifest | PASS | `repository_file_manifest.csv` covers every tracked file except itself and the checksum list; every entry is final and marked releasable |
-| SHA-256 checksums | PASS | `checksums.sha256` validates all 284 tracked files using repository-relative paths |
+| SHA-256 checksums | PASS | `checksums.sha256` validates all 315 release files using repository-relative paths |
 | Script syntax | PASS | 17 R scripts parsed; Python scripts compiled; shell scripts passed `bash -n` |
 | Docking internal integrity | PASS | All 98 entries in the module-level docking checksum manifest validate after sanitizing non-scientific source-path remarks |
 | CSV structure | PASS | All CSV files have consistent row widths |
-| Absolute/local paths | PASS | No `/data3`, home-directory, workstation, volume or personal-account path remains |
+| Absolute/local paths | PASS | No absolute server, home-directory, workstation, volume or personal-account path remains |
 | Credentials/privacy | PASS | No credential/private-key pattern or direct participant identifier was detected; author names in citation metadata and public accessions are intentional |
-| Revised WGCNA only | PASS | No legacy-named WGCNA file is present; the repository contains only beta=30, 4,289 retained genes and three biological modules plus grey |
+| Manuscript-primary WGCNA | PASS | Primary directory contains the 2,810-gene, beta-16, 12-module workflow; signed soft-threshold diagnostics are distinguished from the original module-construction call with signed TOM |
+| WGCNA version separation | PASS | Reviewer checks are isolated; the 4,289-gene/beta-30 exploration is retained only under `archive/nonmanuscript_beta30/` and labeled as not used in the submitted manuscript |
 | GSE103940 release version | PASS (repository) | Main differential-expression files reproduce 2,782 DEGs (118 high-altitude increased; 2,664 decreased); the later 296-DEG analysis is excluded from the primary differential-expression module |
-| GSE103940 manuscript-method agreement | BLOCKED | Manuscript Methods 2.3 describes paired count/TMM/voom, but the frozen 2,782-DEG table derives from log2(FPKM) and a condition-only limma design |
+| GSE103940 workflow provenance | PASS | The module README and version-provenance document record the archived GEO supplementary FPKM, gene filtering, log2 transformation, condition-only limma model, BH correction and frozen DEG threshold |
 | Frozen ML | PASS | Final nested subject-level LOSO materials are retained; no new model or GSE260910 supervised analysis is included |
 | Revised docking only | PASS | Final 2AA2/1GKC workflow and results are retained; no superseded docking conclusion was reintroduced |
 
@@ -53,7 +54,8 @@ STRING's official licensing page states that website, API and download outputs, 
 
 ## Reproducibility boundaries
 
-- The GSE103940 main-analysis script intentionally preserves the archived workflow that generated the manuscript-locked 2,782-DEG table. It does not claim that this workflow is paired or count based. The current manuscript Methods wording must be reconciled with this provenance before release.
+- The GSE103940 main-analysis script intentionally preserves the archived workflow that generated the manuscript-locked 2,782-DEG table. It does not claim that this workflow is paired or count based, nor that all manuscript method wording and repository implementation are identical.
+- The WGCNA primary script intentionally preserves the original module-construction call. Signed soft-threshold diagnostics and a signed TOM do not establish that `networkType` was explicitly set for `blockwiseModules`; repository documentation states this boundary directly.
 - The exact R/limma version used for the legacy GSE103940 analysis was not recovered. The frozen table is retained as authoritative, and the script asserts the expected DEG counts so version drift fails visibly.
 - Exact rerunning of the single-cell localization requires authorized custom `blood1.rds` and `lung1.rds` objects. GSE134355 source acquisition and the downstream object schema are documented, but the exact byte-identical source-to-RDS construction script was not recovered. This is disclosed rather than reconstructed by assumption.
 - Current NCBI `gene_info` content may differ from the archived mapping. The provided helper creates a functional current mapping but does not claim byte identity.

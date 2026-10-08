@@ -2,7 +2,8 @@
 
 The analyses were frozen under more than one R installation. Exact executed versions are retained in module-specific session files rather than represented by a synthetic lockfile:
 
-- bulk differential expression and WGCNA: R 4.5.3;
+- bulk differential expression and exploratory beta-30 WGCNA reanalysis: R 4.5.3;
+- manuscript-primary 2,810-gene/beta-16 WGCNA: exact original R and WGCNA package versions were not recovered;
 - machine learning: R 4.5.3, glmnet 5.0, randomForest 4.7.1.2, e1071 1.7.17, ggplot2 4.0.2;
 - single-cell localization: R 4.5.3, Matrix 1.7-5, ggplot2 4.0.2;
 - cell-composition audit: R 4.6.1, edgeR 4.8.2, limma 3.66.0;

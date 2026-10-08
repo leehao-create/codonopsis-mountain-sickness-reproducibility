@@ -25,7 +25,11 @@ def sha256(path: Path) -> str:
 def classify(relative: str) -> tuple[str, str]:
     parts = relative.split("/")
     module = parts[1] if len(parts) > 2 and parts[0] == "analysis" else "repository"
-    if "/scripts/" in relative:
+    if "/archive/" in relative:
+        role = "archived nonmanuscript analysis material"
+    elif "/reviewer_checks/" in relative:
+        role = "reviewer-requested diagnostic material"
+    elif "/scripts/" in relative:
         role = "analysis or rendering script"
     elif "/data/metadata/" in relative:
         role = "sample metadata"
@@ -69,15 +73,22 @@ def main() -> None:
         digest = sha256(path)
         module, role = classify(relative)
         public_status, note = release_status(relative)
-        if module == "WGCNA":
-            note = (note + "; " if note else "") + "Authoritative revised beta=30 WGCNA only"
+        final_or_legacy = "final"
+        if relative.startswith("analysis/WGCNA/archive/"):
+            final_or_legacy = "archive_nonmanuscript"
+            note = (note + "; " if note else "") + "Exploratory reanalysis not used in the submitted manuscript"
+        elif relative.startswith("analysis/WGCNA/reviewer_checks/"):
+            final_or_legacy = "reviewer_check"
+            note = (note + "; " if note else "") + "Reviewer-requested diagnostic; does not redefine the primary WGCNA"
+        elif relative.startswith("analysis/WGCNA/manuscript_primary/"):
+            note = (note + "; " if note else "") + "Manuscript-primary 2810-gene beta16 12-module WGCNA"
         rows.append({
             "relative_path": relative,
             "bytes": path.stat().st_size,
             "sha256": digest,
             "module": module,
             "role": role,
-            "final_or_legacy": "final",
+            "final_or_legacy": final_or_legacy,
             "public_release": public_status,
             "notes": note,
         })
