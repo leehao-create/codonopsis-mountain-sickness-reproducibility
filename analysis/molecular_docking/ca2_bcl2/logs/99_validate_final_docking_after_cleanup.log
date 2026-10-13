@@ -1,0 +1,4 @@
+PASS: 7 legacy pairs audited; invalid TP53/MMP9/NR3C2 excluded
+PASS: CA2/5E28 and BCL2/8HTS redocking met RMSD <= 2.0 A
+PASS: exactly four pre-mapped candidate docking runs completed
+PASS: required tables, figures, pose files and report are present

@@ -1,0 +1,9 @@
+target,ligand_id,compound_name,pubchem_cid,mapping_source,mapping_record_release_status,receptor_pdb,public_result_record
+NR3C2,MOL000449,stigmasterol,5280794,"archived TCMSP compound-target mapping used by the project",raw mapping not redistributed,2AA2,new_docking_results.csv
+NR3C2,MOL004355,spinasterol,5281331,"archived TCMSP compound-target mapping used by the project",raw mapping not redistributed,2AA2,new_docking_results.csv
+NR3C2,MOL008407,stigmasterone,14807783,"archived TCMSP compound-target mapping used by the project",raw mapping not redistributed,2AA2,new_docking_results.csv
+MMP9,MOL000006,luteolin,5280445,"archived TCMSP compound-target mapping used by the project",raw mapping not redistributed,1GKC,new_docking_results.csv
+CA2,MOL007059,3-beta-Hydroxymethyllenetanshiquinone,5318290,"archived 02.tcmsp_target_dangshen.xlsx Sheet2 mapping",raw mapping not redistributed,5E28,ca2_bcl2/new_docking_results.csv
+CA2,MOL008413,Codopiloic acid,178371,"archived 02.tcmsp_target_dangshen.xlsx Sheet2 mapping",raw mapping not redistributed,5E28,ca2_bcl2/new_docking_results.csv
+BCL2,MOL002579,capsaicin,1548943,"archived 02.tcmsp_target_dangshen.xlsx Sheet2 mapping",raw mapping not redistributed,8HTS,ca2_bcl2/new_docking_results.csv
+BCL2,MOL000008,apigenin,5280443,"archived 02.tcmsp_target_dangshen.xlsx Sheet2 mapping",raw mapping not redistributed,8HTS,ca2_bcl2/new_docking_results.csv

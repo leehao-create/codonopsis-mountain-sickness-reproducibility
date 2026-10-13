@@ -13,8 +13,9 @@
 | Blood/lung RDS objects | Human Cell Landscape reference atlas, associated with GSE134355 | Custom processed objects removed; frozen derived localization tables and object checksums retained | Not redistributed; obtain source matrices from GSE134355 and provide authorized objects through `HCL_RDS_DIR` |
 | NCBI GeneID-to-symbol mapping | NCBI Gene `Homo_sapiens.gene_info.gz` | Archived mapping removed; current download/conversion helper and archived digest retained | Not redistributed; run `analysis/differential_expression/scripts/download_ncbi_gene_mapping.sh` or set `NCBI_GENE_MAP` |
 | GSE260910 family SOFT | NCBI GEO GSE260910 | Not included; sample map and post hoc confounding audit are retained | Download from GEO and set `GSE260910_SOFT` to reproduce metadata verification of the documented limitation |
-| PDB structures 2AA2 and 1GKC | RCSB PDB | Included with identifiers and provenance | Preserve RCSB/PDB attribution |
-| Candidate ligand SDF files | Archived PubChem 3D records; CIDs in `source_provenance.csv` | Included | Preserve PubChem attribution |
+| PDB structures 2AA2, 1GKC, 5E28 and 8HTS | RCSB PDB | Included with identifiers and provenance | Preserve RCSB/PDB attribution |
+| Candidate ligand SDF files | Archived PubChem 3D records; CIDs in the two docking `source_provenance.csv` files | Included | Preserve PubChem attribution |
+| Compound-target mapping records | Archived TCMSP project mapping | Raw export excluded; derived pair-level record retained in `analysis/molecular_docking/compound_target_provenance.csv` | Mapping provenance included without redistributing the raw TCMSP export |
 
 ## External acquisition and reconstruction
 
@@ -50,6 +51,10 @@
 - Scope: the dataset was used for the HAPE case-control analysis reported in the manuscript. The released audit documents complete confounding between disease status and sequencing batch, which should be considered when interpreting HAPE-specific results; GSE260910 is not included in the released supervised machine-learning workflow.
 
 No controlled-access clinical data or direct participant identifiers are included. Public GSM accessions and study pseudonyms are retained where required to reproduce paired or repeated-measures designs.
+
+### Molecular docking
+
+The reported receptor records are NR3C2/2AA2, MMP9/1GKC, CA2/5E28 and BCL2/8HTS. NR3C2/MMP9 inputs, standalone Vina configurations, logs and outputs are under `analysis/molecular_docking/`. CA2/BCL2 inputs, prepared structures, Python-encoded Vina parameters, logs, redocking validation and candidate poses are under `analysis/molecular_docking/ca2_bcl2/`. The CA2/BCL2 workflow did not produce standalone Vina config text files; its exact grid and run parameters are retained in `prepared/docking_boxes.csv`, the docking scripts and the original execution logs. No docking was rerun to assemble the release.
 
 ### GSE103940 version boundary
 

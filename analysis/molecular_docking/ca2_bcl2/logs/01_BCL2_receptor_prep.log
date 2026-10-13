@@ -1,0 +1,7 @@
+Template padding will be used.
+[32m gasteiger charges will be computed from scratch
+ [0m
+
+Files written:
+ $MODULE_DIR/prepared/BCL2/receptor.json <-- parameterized receptor
+$MODULE_DIR/prepared/BCL2/receptor.pdbqt <-- static (i.e., rigid) receptor input file

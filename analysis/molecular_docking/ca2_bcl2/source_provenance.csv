@@ -1,0 +1,14 @@
+source_type,target_or_ligand,identifier,url,retrieved_on,local_file,purpose
+project_archive,CA2/BCL2 mapped pairs,02.tcmsp_target_dangshen.xlsx,,2026-09-17,not redistributed,"target-ligand mapping provenance; archived source file excluded from the public release"
+RCSB PDB,CA2,5E28,https://www.rcsb.org/structure/5E28,2026-09-17,inputs/structures/5E28.pdb,receptor and crystal coordinates
+RCSB CCD,CA2 native ligand,BC5,https://www.rcsb.org/ligand/BC5,2026-09-17,inputs/ligands/BC5_ideal.sdf,bond orders for redocking reference
+RCSB PDB,BCL2,8HTS,https://www.rcsb.org/structure/8HTS,2026-09-17,inputs/structures/8HTS.pdb,receptor and crystal coordinates
+RCSB CCD,BCL2 native ligand,N2L,https://www.rcsb.org/ligand/N2L,2026-09-17,inputs/ligands/N2L_ideal.sdf,bond orders for redocking reference
+TCMSP,3-beta-Hydroxymethyllenetanshiquinone,MOL007059,https://www.tcmsp-e.com/molecule.php?qn=7059,2026-09-17,inputs/ligands/MOL007059_TCMSP.mol2,identity cross-check
+PubChem,3-beta-Hydroxymethyllenetanshiquinone,CID 5318290,https://pubchem.ncbi.nlm.nih.gov/compound/5318290,2026-09-17,inputs/ligands/MOL007059_PubChem3D.sdf,3D docking input
+TCMSP,Codopiloic acid,MOL008413,https://www.tcmsp-e.com/molecule.php?qn=8413,2026-09-17,inputs/ligands/MOL008413_TCMSP.mol2,identity cross-check
+PubChem,Codopiloic acid,CID 178371,https://pubchem.ncbi.nlm.nih.gov/compound/178371,2026-09-17,inputs/ligands/MOL008413_PubChem3D.sdf,3D docking input
+TCMSP,capsaicin,MOL002579,https://www.tcmsp-e.com/molecule.php?qn=2579,2026-09-17,inputs/ligands/MOL002579_TCMSP.mol2,identity cross-check
+PubChem,capsaicin,CID 1548943,https://pubchem.ncbi.nlm.nih.gov/compound/1548943,2026-09-17,inputs/ligands/MOL002579_PubChem3D.sdf,3D docking input
+TCMSP,apigenin,MOL000008,https://www.tcmsp-e.com/molecule.php?qn=8,2026-09-17,inputs/ligands/MOL000008_TCMSP.mol2,identity cross-check
+PubChem,apigenin,CID 5280443,https://pubchem.ncbi.nlm.nih.gov/compound/5280443,2026-09-17,inputs/ligands/MOL000008_PubChem3D.sdf,3D docking input

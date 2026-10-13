@@ -19,7 +19,7 @@ analysis/
   machine_learning/          frozen nested subject-level LOSO analysis
   single_cell/               reference-atlas localization
   cell_composition/          lineage-marker expression audit
-  molecular_docking/         final validated 2AA2/1GKC redocking workflow
+  molecular_docking/         frozen 2AA2/1GKC and 5E28/8HTS docking workflows
 environment/                 recorded software versions and setup notes
 external_data/               manifests for excluded third-party inputs
 tools/                       manifest/checksum maintenance
@@ -35,7 +35,7 @@ Each module contains `scripts/`, inputs or frozen dependencies where redistribut
 4. Run or inspect the manuscript-primary WGCNA materials in `analysis/WGCNA/manuscript_primary/`; reviewer-only diagnostics are isolated under `analysis/WGCNA/reviewer_checks/`.
 5. Run machine-learning scripts `01` through `04`; `99_validate_outputs.R` validates the frozen release outputs.
 6. Run the single-cell localization only after supplying authorized `blood1.rds` and `lung1.rds` objects through `HCL_RDS_DIR`; run the cell-composition audit with the included GEO-derived inputs.
-7. Create the docking environment from `analysis/molecular_docking/environment.yml`, activate it, and run `scripts/run_all.sh` only when full docking reproduction is desired.
+7. Create the docking environments from `analysis/molecular_docking/environment.yml` and `analysis/molecular_docking/ca2_bcl2/environment.yml`. The module root reproduces NR3C2/2AA2 and MMP9/1GKC; `ca2_bcl2/` contains the frozen CA2/5E28 and BCL2/8HTS workflow, parameters, logs, redocking validation and candidate poses.
 
 No analysis was rerun during repository assembly. A syntax/static check does not constitute independent numerical reproduction.
 
@@ -69,6 +69,8 @@ Results under `reviewer_checks/` are diagnostic or sensitivity analyses and are 
 - `CITATION.cff` supplies repository citation metadata.
 - `RELEASE_AUDIT.md` records the final pre-release decision and unresolved author/licensing actions.
 
+Machine-learning random seeds are recorded explicitly in `analysis/machine_learning/README.md`, `analysis/machine_learning/results/00_final_ML_methods_freeze.md`, `analysis/machine_learning/results/supplementary/Table_S3C_model_specification.csv`, and the corresponding scripts. These records distinguish deterministic outer/inner folds from stochastic stability resampling, permutation sampling, random-forest fitting and subject bootstrap resampling.
+
 Regenerate integrity files after an authorized change:
 
 ```bash
@@ -84,6 +86,6 @@ GEO, Human Cell Landscape, STRING, NCBI, MSigDB, RCSB PDB, PubChem, GeneCards, O
 
 Raw GeneCards, OMIM, TCMSP and HERB exports, MSigDB GMT files, custom Human Cell Landscape RDS objects and the archived NCBI GeneID mapping are excluded. Source/accession, retrieval instructions, expected filenames and available archived checksums are recorded in `DATA_PROVENANCE.md`, `external_data/THIRD_PARTY_INPUTS.csv`, and module READMEs. Three compact STRING-derived tables are retained with attribution because STRING explicitly distributes website/API/download outputs under CC BY 4.0; their historical release was not recorded and the limitation is documented.
 
-## Release status
+## Persistent archive
 
-A persistent DOI/URL can be added to `CITATION.cff` and this README after upload.
+The archived release is identified by Zenodo DOI `10.5281/zenodo.23228591`. The corresponding GitHub repository is <https://github.com/leehao-create/codonopsis-mountain-sickness-reproducibility>. Zenodo public accessibility requires manual browser confirmation.
